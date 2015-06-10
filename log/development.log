@@ -19440,3 +19440,1477 @@ Started GET "/assets/young_dog.jpg" for ::1 at 2015-06-09 19:41:26 -0400
 
 
 Started GET "/assets/special_needs.jpg" for ::1 at 2015-06-09 19:41:26 -0400
+
+
+Started GET "/" for ::1 at 2015-06-09 21:56:43 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 879ms (Views: 856.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-06-09 21:56:45 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 79ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dogs.self-90f8696083a828cb9e3910a4de475e2aea3d1cd39e2d30cb097c49d3cb0f74b0.css?body=1" for ::1 at 2015-06-09 21:56:45 -0400
+
+
+Started GET "/assets/welcome.self-c4e43b999757549eade1b1ac17873237adc48cb430545c7e585c4233b95a567f.css?body=1" for ::1 at 2015-06-09 21:56:45 -0400
+
+
+Started GET "/assets/application.self-fdffc2a9a8f5dc31b11a97b8cc8fc353cca2ba4acb27bf386ef6e92c9629aba5.css?body=1" for ::1 at 2015-06-09 21:56:45 -0400
+
+
+Started GET "/assets/btubpups.jpg" for ::1 at 2015-06-09 21:56:45 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/btubpups.jpg"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (39.9ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (197.0ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (364.2ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (803.0ms)
+
+
+Started GET "/assets/grntosand.jpg" for ::1 at 2015-06-09 21:56:46 -0400
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 21:56:51 -0400
+Processing by DogsController#index as HTML
+  [1m[35mDog Load (0.5ms)[0m  SELECT "dogs".* FROM "dogs"
+  Rendered dogs/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 147ms (Views: 142.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 22:12:04 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DogsController#index as HTML
+  [1m[35mDog Load (0.5ms)[0m  SELECT "dogs".* FROM "dogs"
+  Rendered dogs/index.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 488ms (Views: 458.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/dogs.self-90f8696083a828cb9e3910a4de475e2aea3d1cd39e2d30cb097c49d3cb0f74b0.css?body=1" for ::1 at 2015-06-09 22:12:06 -0400
+
+
+Started GET "/assets/welcome.self-c4e43b999757549eade1b1ac17873237adc48cb430545c7e585c4233b95a567f.css?body=1" for ::1 at 2015-06-09 22:12:06 -0400
+
+
+Started GET "/assets/application.self-fdffc2a9a8f5dc31b11a97b8cc8fc353cca2ba4acb27bf386ef6e92c9629aba5.css?body=1" for ::1 at 2015-06-09 22:12:06 -0400
+
+
+Started GET "/assets/info_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-09 22:12:06 -0400
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-09 22:12:06 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-09 22:12:06 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-06-09 22:12:06 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-09 22:12:06 -0400
+
+
+Started GET "/assets/dogs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-09 22:12:06 -0400
+
+
+Started GET "/assets/info_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-09 22:12:06 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-09 22:12:06 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-09 22:12:06 -0400
+
+
+Started GET "/dogs/new" for ::1 at 2015-06-09 22:12:16 -0400
+Processing by DogsController#new as HTML
+  Rendered dogs/_form.html.erb (328.5ms)
+  Rendered dogs/new.html.erb within layouts/application (374.8ms)
+Completed 200 OK in 498ms (Views: 497.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dogs" for ::1 at 2015-06-09 22:13:48 -0400
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NDA8BaAXqn5C8sZj7XS+eZGFSiRU8PRM5cgM8gCPrb/1SxshumYXGDdSZUyK7Au0WJbHw7kK2vLKq3+6SKFqwQ==", "dog"=>{"name"=>"Zane", "age"=>"Young", "description"=>"Zane is a lovable young lab mix with a heart of gold. He is a gorgeous boy who will win you over with his zest for life. An energetic boy, Zane loves to play fetch and also enjoys playing with his toys around the house. His enthusiasm for having fun belies the fact that his sight is a little compromised. You see sweet Zane arrived at Saving Grace with damage to his eyes. Our vets have worked their miracles on him, and while he wonâ\u0080\u0099t ever have 20/20 vision, his limitation certainly does not slow him down and he is making up for lost time by savoring every moment. Always greeting new people with glee, Zane is a super friendly boy. He gets along well with other dogs and plays nicely, although he prefers a one on one situation so he can keep up with all the action.", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa4828a6938 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150609-25457-ur82au.jpg>, @original_filename="young1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"young1.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Dog"}
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-13jx4rx.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-1nak1o3.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-1nak1o3.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-1nak1o3.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-1nak1o320150609-25457-12xvcqd'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-1nak1o320150609-25457-12xvcqd'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-1nak1o3.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-1nak1o3.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-1nak1o3.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-1nak1o320150609-25457-rj44z1'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-1nak1o320150609-25457-rj44z1'
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-sviipv.jpg'
+  [1m[35mSQL (15.9ms)[0m  INSERT INTO "dogs" ("name", "age", "description", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Zane"], ["age", "Young"], ["description", "Zane is a lovable young lab mix with a heart of gold. He is a gorgeous boy who will win you over with his zest for life. An energetic boy, Zane loves to play fetch and also enjoys playing with his toys around the house. His enthusiasm for having fun belies the fact that his sight is a little compromised. You see sweet Zane arrived at Saving Grace with damage to his eyes. Our vets have worked their miracles on him, and while he wonâ\u0080\u0099t ever have 20/20 vision, his limitation certainly does not slow him down and he is making up for lost time by savoring every moment. Always greeting new people with glee, Zane is a super friendly boy. He gets along well with other dogs and plays nicely, although he prefers a one on one situation so he can keep up with all the action."], ["avatar_file_name", "young1.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 11281], ["avatar_updated_at", "2015-06-10 02:13:48.650081"], ["created_at", "2015-06-10 02:13:49.383815"], ["updated_at", "2015-06-10 02:13:49.383815"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/dogs/3
+Completed 302 Found in 858ms (ActiveRecord: 17.1ms)
+
+
+Started GET "/dogs/3" for ::1 at 2015-06-09 22:13:49 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mDog Load (0.2ms)[0m  SELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered dogs/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 131ms (Views: 86.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 22:13:56 -0400
+Processing by DogsController#index as HTML
+  [1m[36mDog Load (0.2ms)[0m  [1mSELECT "dogs".* FROM "dogs"[0m
+  Rendered dogs/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 100ms (Views: 98.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs/3/edit" for ::1 at 2015-06-09 22:15:00 -0400
+Processing by DogsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mDog Load (0.1ms)[0m  SELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered dogs/_form.html.erb (4.0ms)
+  Rendered dogs/edit.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 106ms (Views: 104.7ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/dogs/3" for ::1 at 2015-06-09 22:18:59 -0400
+Processing by DogsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dc9T/MA/orA7EApFYq62KLklYcyWgY5lwF/yzynASbq0tHTY2k4f1k6wqWoFNgPlcDbsK3t7oNvvPIGHYe6OxA==", "dog"=>{"name"=>"Zane", "age"=>"Young", "description"=>"Zane is a lovable young lab mix with a heart of gold. He is a gorgeous boy who will win you over with his zest for life. An energetic boy, Zane loves to play fetch and also enjoys playing with his toys around the house. Always greeting new people with glee, Zane is a super friendly boy. He gets along well with other dogs and plays nicely, although he prefers a one on one situation so he can keep up with all the action.This bundle of fun also has great house manners. Mature for his young age, his foster mom reports that he is very reliable with his potty habits, sits politely for treats and is great in his crate. He enjoys riding in the car, sitting quietly watching the scenery as it whizzes by. After all the action of a busy day Zane is a wonderful snuggle partner, cozying up on the couch to watch the latest movie.", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa485dbe288 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150609-25457-1e2syuj.jpg>, @original_filename="young1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"young1.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Dog", "id"=>"3"}
+  [1m[36mDog Load (0.2ms)[0m  [1mSELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-1b0hmml.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-16zre2u.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-16zre2u.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-16zre2u.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-16zre2u20150609-25457-mg8hwb'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-16zre2u20150609-25457-mg8hwb'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-16zre2u.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-16zre2u.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-16zre2u.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-16zre2u20150609-25457-rgx0gn'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-16zre2u20150609-25457-rgx0gn'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/8632535c1b1cb2996ad8442cdf5d5b1520150609-25457-jpeyad.jpg'
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "dogs" SET "description" = ?, "avatar_updated_at" = ?, "avatar_file_name" = ?, "updated_at" = ? WHERE "dogs"."id" = ?[0m  [["description", "Zane is a lovable young lab mix with a heart of gold. He is a gorgeous boy who will win you over with his zest for life. An energetic boy, Zane loves to play fetch and also enjoys playing with his toys around the house. Always greeting new people with glee, Zane is a super friendly boy. He gets along well with other dogs and plays nicely, although he prefers a one on one situation so he can keep up with all the action.This bundle of fun also has great house manners. Mature for his young age, his foster mom reports that he is very reliable with his potty habits, sits politely for treats and is great in his crate. He enjoys riding in the car, sitting quietly watching the scenery as it whizzes by. After all the action of a busy day Zane is a wonderful snuggle partner, cozying up on the couch to watch the latest movie."], ["avatar_updated_at", "2015-06-10 02:18:59.560003"], ["avatar_file_name", "young1.jpg"], ["updated_at", "2015-06-10 02:19:00.136461"], ["id", 3]]
+[paperclip] deleting /Users/rudi1/Desktop/loving_dogs/public/system/dogs/avatars/000/000/003/original/young1.jpg
+[paperclip] deleting /Users/rudi1/Desktop/loving_dogs/public/system/dogs/avatars/000/000/003/medium/young1.jpg
+[paperclip] deleting /Users/rudi1/Desktop/loving_dogs/public/system/dogs/avatars/000/000/003/thumb/young1.jpg
+  [1m[35m (1.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/dogs/3
+Completed 302 Found in 651ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/dogs/3" for ::1 at 2015-06-09 22:19:00 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mDog Load (0.1ms)[0m  [1mSELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered dogs/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 170ms (Views: 168.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 22:19:02 -0400
+Processing by DogsController#index as HTML
+  [1m[35mDog Load (0.3ms)[0m  SELECT "dogs".* FROM "dogs"
+  Rendered dogs/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 101ms (Views: 100.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dogs/new" for ::1 at 2015-06-09 22:19:09 -0400
+Processing by DogsController#new as HTML
+  Rendered dogs/_form.html.erb (3.0ms)
+  Rendered dogs/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 130ms (Views: 128.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dogs" for ::1 at 2015-06-09 22:22:01 -0400
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"75nd2NI+AZ6f8GdlszoGgUq9Zg8CzuNjSBdpE9RvMnEu4vr8yE+8+OpQxErUorNMg67r6O80zd1ndBpbnEH1Dw==", "dog"=>{"name"=>"Chrissy", "age"=>"Young", "description"=>"3 year old Chrissy is the kind of girl who is happiest when she can be a productive pup. She is a busy girl who will not be found sitting around waiting for life to pass her by. She grabs it with both paws and is determined to squeeze the most out of every moment.She is certainly no couch potato, but instead is fun, hard-working and a really smart girl who will flourish with a family who can accommodate her brilliant mind and active energy. She also finds time in her busy schedule for snuggling as Chrissy is the queen of loving. She is great with other dogs and loves to be around people. She would be wonderful in either a home with a busy family or with her one perfect soulmate.", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa487462250 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150609-25457-it4icx.jpg>, @original_filename="young2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"young2.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Dog"}
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b570a6d0de1c69f489b8e48e5c36c12320150609-25457-cvamun.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b570a6d0de1c69f489b8e48e5c36c12320150609-25457-8nw5pj.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b570a6d0de1c69f489b8e48e5c36c12320150609-25457-8nw5pj.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b570a6d0de1c69f489b8e48e5c36c12320150609-25457-8nw5pj.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b570a6d0de1c69f489b8e48e5c36c12320150609-25457-8nw5pj20150609-25457-1hq9paq'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b570a6d0de1c69f489b8e48e5c36c12320150609-25457-8nw5pj20150609-25457-1hq9paq'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b570a6d0de1c69f489b8e48e5c36c12320150609-25457-8nw5pj.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b570a6d0de1c69f489b8e48e5c36c12320150609-25457-8nw5pj.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b570a6d0de1c69f489b8e48e5c36c12320150609-25457-8nw5pj.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b570a6d0de1c69f489b8e48e5c36c12320150609-25457-8nw5pj20150609-25457-avdps9'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b570a6d0de1c69f489b8e48e5c36c12320150609-25457-8nw5pj20150609-25457-avdps9'
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b570a6d0de1c69f489b8e48e5c36c12320150609-25457-7uv9n2.jpg'
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "dogs" ("name", "age", "description", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Chrissy"], ["age", "Young"], ["description", "3 year old Chrissy is the kind of girl who is happiest when she can be a productive pup. She is a busy girl who will not be found sitting around waiting for life to pass her by. She grabs it with both paws and is determined to squeeze the most out of every moment.She is certainly no couch potato, but instead is fun, hard-working and a really smart girl who will flourish with a family who can accommodate her brilliant mind and active energy. She also finds time in her busy schedule for snuggling as Chrissy is the queen of loving. She is great with other dogs and loves to be around people. She would be wonderful in either a home with a busy family or with her one perfect soulmate."], ["avatar_file_name", "young2.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 21352], ["avatar_updated_at", "2015-06-10 02:22:01.640935"], ["created_at", "2015-06-10 02:22:02.113414"], ["updated_at", "2015-06-10 02:22:02.113414"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/dogs/4
+Completed 302 Found in 494ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/dogs/4" for ::1 at 2015-06-09 22:22:02 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mDog Load (0.1ms)[0m  SELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered dogs/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 124ms (Views: 122.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 22:22:04 -0400
+Processing by DogsController#index as HTML
+  [1m[36mDog Load (0.2ms)[0m  [1mSELECT "dogs".* FROM "dogs"[0m
+  Rendered dogs/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 107ms (Views: 105.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs/new" for ::1 at 2015-06-09 22:22:11 -0400
+Processing by DogsController#new as HTML
+  Rendered dogs/_form.html.erb (2.7ms)
+  Rendered dogs/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 83ms (Views: 82.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dogs" for ::1 at 2015-06-09 22:27:14 -0400
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"a0wLnONxCsxsCT9sc1PboB4PL1feETDU8bwHmisw9dyqNyy4+QC3qhmpnEMUy25t1xyisDPrHmre33TSYx4yog==", "dog"=>{"name"=>"Trixie", "age"=>"Young", "description"=>"Trixie came to the Saving Grace program from a our shelter where she was brought in as a stray. Many of us believe it is better to have a few close friends and many acquaintances and Trixie agrees with us. While she is friendly to most everyone she meets, her loyalty relies with her closest friends. She doesn'\u0080\u0099t need to party or socialize with large groups but is happy to go along if needed and asked of her but she would be just as happy with a movie and snuggle time. She can pull off wearing a sweater to a fancy shop but is just as happy to take a walk in the woods. Trixie is a cutie pie and once she knows you, she will shower you with adoration. She would be fine with other dogs or fine as a solo dog. She would love to tag along for any day of fun activities. And then back for a nice dinner, and a cuddle time afterward would be a perfect day for her.", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa484695a70 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150609-25457-1qoat6n.jpg>, @original_filename="young3.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"young3.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Dog"}
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/fe09c2dd3fbc7c29852d22084b56000d20150609-25457-746whp.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/fe09c2dd3fbc7c29852d22084b56000d20150609-25457-zw1z69.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/fe09c2dd3fbc7c29852d22084b56000d20150609-25457-zw1z69.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/fe09c2dd3fbc7c29852d22084b56000d20150609-25457-zw1z69.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/fe09c2dd3fbc7c29852d22084b56000d20150609-25457-zw1z6920150609-25457-3qxs6g'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/fe09c2dd3fbc7c29852d22084b56000d20150609-25457-zw1z6920150609-25457-3qxs6g'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/fe09c2dd3fbc7c29852d22084b56000d20150609-25457-zw1z69.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/fe09c2dd3fbc7c29852d22084b56000d20150609-25457-zw1z69.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/fe09c2dd3fbc7c29852d22084b56000d20150609-25457-zw1z69.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/fe09c2dd3fbc7c29852d22084b56000d20150609-25457-zw1z6920150609-25457-59c6ak'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/fe09c2dd3fbc7c29852d22084b56000d20150609-25457-zw1z6920150609-25457-59c6ak'
+  [1m[35m (0.1ms)[0m  begin transaction
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/fe09c2dd3fbc7c29852d22084b56000d20150609-25457-1hp59aj.jpg'
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "dogs" ("name", "age", "description", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Trixie"], ["age", "Young"], ["description", "Trixie came to the Saving Grace program from a our shelter where she was brought in as a stray. Many of us believe it is better to have a few close friends and many acquaintances and Trixie agrees with us. While she is friendly to most everyone she meets, her loyalty relies with her closest friends. She doesn'\u0080\u0099t need to party or socialize with large groups but is happy to go along if needed and asked of her but she would be just as happy with a movie and snuggle time. She can pull off wearing a sweater to a fancy shop but is just as happy to take a walk in the woods. Trixie is a cutie pie and once she knows you, she will shower you with adoration. She would be fine with other dogs or fine as a solo dog. She would love to tag along for any day of fun activities. And then back for a nice dinner, and a cuddle time afterward would be a perfect day for her."], ["avatar_file_name", "young3.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 31858], ["avatar_updated_at", "2015-06-10 02:27:14.926791"], ["created_at", "2015-06-10 02:27:15.652027"], ["updated_at", "2015-06-10 02:27:15.652027"]]
+  [1m[35m (32.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/dogs/5
+Completed 302 Found in 793ms (ActiveRecord: 32.8ms)
+
+
+Started GET "/dogs/5" for ::1 at 2015-06-09 22:27:15 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mDog Load (0.2ms)[0m  [1mSELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered dogs/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 140ms (Views: 138.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 22:27:17 -0400
+Processing by DogsController#index as HTML
+  [1m[35mDog Load (0.2ms)[0m  SELECT "dogs".* FROM "dogs"
+  Rendered dogs/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 124ms (Views: 122.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs/new" for ::1 at 2015-06-09 22:31:42 -0400
+Processing by DogsController#new as HTML
+  Rendered dogs/_form.html.erb (3.4ms)
+  Rendered dogs/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 157ms (Views: 156.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dogs" for ::1 at 2015-06-09 22:34:15 -0400
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AOdkXdBUJJM/lr0/fYTZ4Mfer66vZ1xSFxdQEgjR1DLBnEN5yiWZ9Uo2HhAaHGwtDs0iSUKdcuw4dCNaQP8TTA==", "dog"=>{"name"=>"Torie", "age"=>"Young", "description"=>"Torie is a real outdoorsy girl who loves any and all activities where she can be out and about. At about a year old she has nice energy level but not over the top, daily walks and playtime would suit her just fine.Torie is very outgoing and friendly, she loves to check out new places and would love to tag along for errands or lunch at a local dog-friendly eatery. Sheâ\u0080\u0099s good with kids and other dogs as well. Torie is a smart dog who will catch on quickly to new things and graduate at the top of her obedience class.", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa485e6f858 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150609-25457-12parj7.jpg>, @original_filename="young5.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"young5.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Dog"}
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-gx6o2s.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-oepgt4.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-oepgt4.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-oepgt4.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-oepgt420150609-25457-pypods'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-oepgt420150609-25457-pypods'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-oepgt4.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-oepgt4.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-oepgt4.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-oepgt420150609-25457-1tghb1g'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-oepgt420150609-25457-1tghb1g'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-10azmkn.jpg'
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "dogs" ("name", "age", "description", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Torie"], ["age", "Young"], ["description", "Torie is a real outdoorsy girl who loves any and all activities where she can be out and about. At about a year old she has nice energy level but not over the top, daily walks and playtime would suit her just fine.Torie is very outgoing and friendly, she loves to check out new places and would love to tag along for errands or lunch at a local dog-friendly eatery. Sheâ\u0080\u0099s good with kids and other dogs as well. Torie is a smart dog who will catch on quickly to new things and graduate at the top of her obedience class."], ["avatar_file_name", "young5.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 13182], ["avatar_updated_at", "2015-06-10 02:34:16.037428"], ["created_at", "2015-06-10 02:34:17.014388"], ["updated_at", "2015-06-10 02:34:17.014388"]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/dogs/6
+Completed 302 Found in 1001ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/dogs/6" for ::1 at 2015-06-09 22:34:17 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mDog Load (0.2ms)[0m  SELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered dogs/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 181ms (Views: 179.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 22:34:20 -0400
+Processing by DogsController#index as HTML
+  [1m[36mDog Load (0.3ms)[0m  [1mSELECT "dogs".* FROM "dogs"[0m
+  Rendered dogs/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 187ms (Views: 185.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dogs/new" for ::1 at 2015-06-09 22:37:32 -0400
+Processing by DogsController#new as HTML
+  Rendered dogs/_form.html.erb (3.1ms)
+  Rendered dogs/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 164ms (Views: 162.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dogs" for ::1 at 2015-06-09 22:39:20 -0400
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QrHJhxyQwmtId/OLvonCFzxtCvzItRTO1J9/MPdReAODyu6jBuF/DT3XUKTZEXfa9X6HGyVPOnD7/Ax4v3+/fQ==", "dog"=>{"name"=>"Kenny", "age"=>"Young", "description"=>"Born and raised on the wrong side of the tracks, Kennyis ready to migrate across the tracks and into a quality family. After experiencing the school of hard knock life, she is interested in perfecting her manners and blending in behind a white picket fence and maybe even having a sibling who is a pure bred golden retriever. She would enjoy having a sibling or two to hang out with and show her the way. She would enjoy learning all sorts of new things - like waling on a leash through a nice neighborhood, or sleeping on her very own dog bed. Kendra can be a little shy at first but will blossom with a kind and patient hand. She is learning to trust folks at the farm and understands that there are good people out there."}, "commit"=>"Create Dog"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (2.2ms)[0m  [1mINSERT INTO "dogs" ("name", "age", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Kenny"], ["age", "Young"], ["description", "Born and raised on the wrong side of the tracks, Kennyis ready to migrate across the tracks and into a quality family. After experiencing the school of hard knock life, she is interested in perfecting her manners and blending in behind a white picket fence and maybe even having a sibling who is a pure bred golden retriever. She would enjoy having a sibling or two to hang out with and show her the way. She would enjoy learning all sorts of new things - like waling on a leash through a nice neighborhood, or sleeping on her very own dog bed. Kendra can be a little shy at first but will blossom with a kind and patient hand. She is learning to trust folks at the farm and understands that there are good people out there."], ["created_at", "2015-06-10 02:39:20.397271"], ["updated_at", "2015-06-10 02:39:20.397271"]]
+  [1m[35m (16.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/dogs/7
+Completed 302 Found in 24ms (ActiveRecord: 18.9ms)
+
+
+Started GET "/dogs/7" for ::1 at 2015-06-09 22:39:20 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mDog Load (0.2ms)[0m  [1mSELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered dogs/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 210ms (Views: 208.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/original/missing.png" for ::1 at 2015-06-09 22:39:20 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/original/missing.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (179.7ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.6ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (332.8ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (80.0ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (211.3ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 22:39:24 -0400
+Processing by DogsController#index as HTML
+  [1m[35mDog Load (0.3ms)[0m  SELECT "dogs".* FROM "dogs"
+  Rendered dogs/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 111ms (Views: 109.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/medium/missing.png" for ::1 at 2015-06-09 22:39:24 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (97.5ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (63.3ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (146.2ms)
+
+
+Started GET "/dogs/7/edit" for ::1 at 2015-06-09 22:39:43 -0400
+Processing by DogsController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mDog Load (0.1ms)[0m  [1mSELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered dogs/_form.html.erb (3.2ms)
+  Rendered dogs/edit.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 88ms (Views: 86.7ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/dogs/7" for ::1 at 2015-06-09 22:40:00 -0400
+Processing by DogsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WWY0iPnM8/rp4CQK6yHehAFroo2lrv5PTmdXhJtG2imYHROs471OnJxAhyWMuWtJyHgvakhU0PFhBCTM02gdVw==", "dog"=>{"name"=>"Kenny", "age"=>"Young", "description"=>"Born and raised on the wrong side of the tracks, Kennyis ready to migrate across the tracks and into a quality family. After experiencing the school of hard knock life, she is interested in perfecting her manners and blending in behind a white picket fence and maybe even having a sibling who is a pure bred golden retriever. She would enjoy having a sibling or two to hang out with and show her the way. She would enjoy learning all sorts of new things - like waling on a leash through a nice neighborhood, or sleeping on her very own dog bed. Kendra can be a little shy at first but will blossom with a kind and patient hand. She is learning to trust folks at the farm and understands that there are good people out there.", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa485f76008 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150609-25457-y8h65e.jpg>, @original_filename="young6.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"young6.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Dog", "id"=>"7"}
+  [1m[35mDog Load (0.1ms)[0m  SELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ec5801c62d6cc103c24549790515859620150609-25457-is8mxl.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ec5801c62d6cc103c24549790515859620150609-25457-1uvurgf.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ec5801c62d6cc103c24549790515859620150609-25457-1uvurgf.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ec5801c62d6cc103c24549790515859620150609-25457-1uvurgf.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ec5801c62d6cc103c24549790515859620150609-25457-1uvurgf20150609-25457-1p25sk2'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ec5801c62d6cc103c24549790515859620150609-25457-1uvurgf20150609-25457-1p25sk2'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ec5801c62d6cc103c24549790515859620150609-25457-1uvurgf.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ec5801c62d6cc103c24549790515859620150609-25457-1uvurgf.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ec5801c62d6cc103c24549790515859620150609-25457-1uvurgf.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ec5801c62d6cc103c24549790515859620150609-25457-1uvurgf20150609-25457-4747zk'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ec5801c62d6cc103c24549790515859620150609-25457-1uvurgf20150609-25457-4747zk'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ec5801c62d6cc103c24549790515859620150609-25457-117fo8d.jpg'
+  [1m[35mSQL (0.5ms)[0m  UPDATE "dogs" SET "avatar_file_name" = ?, "avatar_content_type" = ?, "avatar_file_size" = ?, "avatar_updated_at" = ?, "updated_at" = ? WHERE "dogs"."id" = ?  [["avatar_file_name", "young6.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 19858], ["avatar_updated_at", "2015-06-10 02:40:00.255908"], ["updated_at", "2015-06-10 02:40:00.852369"], ["id", 7]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/dogs/7
+Completed 302 Found in 632ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/dogs/7" for ::1 at 2015-06-09 22:40:00 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mDog Load (0.2ms)[0m  SELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered dogs/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 99ms (Views: 97.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 22:40:03 -0400
+Processing by DogsController#index as HTML
+  [1m[36mDog Load (0.2ms)[0m  [1mSELECT "dogs".* FROM "dogs"[0m
+  Rendered dogs/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 81ms (Views: 80.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs/new" for ::1 at 2015-06-09 22:43:31 -0400
+Processing by DogsController#new as HTML
+  Rendered dogs/_form.html.erb (3.7ms)
+  Rendered dogs/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 196ms (Views: 195.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dogs" for ::1 at 2015-06-09 22:44:49 -0400
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZqqyK3P+bPxTwmQwJWrv2kAZ5lqMeWdOzFIYhbtkzq2n0ZUPaY/RmiZixx9C8loXiQprvWGDSfDjMWvN80oJ0w==", "dog"=>{"name"=>"Dublin", "age"=>"Young", "description"=>"On a scale of cuteness, this boy is off the charts! Dublin is adorable in every way. He is such an easy going fellow - and that face is just too much! He has such soulful eyes and such a sweet, easy going temperament that he is a volunteer favorite. Dublin is a young adult of about 3 years and he is fully grown at about 18 pounds. He is always happy and never demanding. He is a perfect gentlemen in his crate and in the yard at play time. He would be great joining an existing pet friendly home or as a solo dog. We would love to see him get his own dog bed and a family who loves him dearly. He would love to go exploring on a walk or hike and would be happy to go for a car ride too. Hanging out in the yard or garden, or just relaxing in the house are equally fine with him. He likes to watch all the activity at the farm and enjoys watching the birds and squirrels. He is happy to accept a little pat on the head or to play with his friends. And a nap in the sun is just bliss to him!", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa487428fc8 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150609-25457-hm7dm8.jpg>, @original_filename="young5.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"young5.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Dog"}
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-sjpdfr.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-vx39yg.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-vx39yg.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-vx39yg.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-vx39yg20150609-25457-x3ep7j'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-vx39yg20150609-25457-x3ep7j'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-vx39yg.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-vx39yg.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-vx39yg.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-vx39yg20150609-25457-1vztkmv'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-vx39yg20150609-25457-1vztkmv'
+  [1m[35m (0.2ms)[0m  begin transaction
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/3da95060587263c1fa91ca2eaaf6a56d20150609-25457-1t46p7l.jpg'
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "dogs" ("name", "age", "description", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Dublin"], ["age", "Young"], ["description", "On a scale of cuteness, this boy is off the charts! Dublin is adorable in every way. He is such an easy going fellow - and that face is just too much! He has such soulful eyes and such a sweet, easy going temperament that he is a volunteer favorite. Dublin is a young adult of about 3 years and he is fully grown at about 18 pounds. He is always happy and never demanding. He is a perfect gentlemen in his crate and in the yard at play time. He would be great joining an existing pet friendly home or as a solo dog. We would love to see him get his own dog bed and a family who loves him dearly. He would love to go exploring on a walk or hike and would be happy to go for a car ride too. Hanging out in the yard or garden, or just relaxing in the house are equally fine with him. He likes to watch all the activity at the farm and enjoys watching the birds and squirrels. He is happy to accept a little pat on the head or to play with his friends. And a nap in the sun is just bliss to him!"], ["avatar_file_name", "young5.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 13182], ["avatar_updated_at", "2015-06-10 02:44:49.737922"], ["created_at", "2015-06-10 02:44:50.335522"], ["updated_at", "2015-06-10 02:44:50.335522"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/dogs/8
+Completed 302 Found in 641ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/dogs/8" for ::1 at 2015-06-09 22:44:50 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mDog Load (0.1ms)[0m  [1mSELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1[0m  [["id", 8]]
+  Rendered dogs/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 102ms (Views: 100.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 22:44:52 -0400
+Processing by DogsController#index as HTML
+  [1m[35mDog Load (0.3ms)[0m  SELECT "dogs".* FROM "dogs"
+  Rendered dogs/index.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 82ms (Views: 80.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dogs/7/edit" for ::1 at 2015-06-09 22:45:18 -0400
+Processing by DogsController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mDog Load (0.2ms)[0m  [1mSELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered dogs/_form.html.erb (3.4ms)
+  Rendered dogs/edit.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 117ms (Views: 116.2ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/dogs/7" for ::1 at 2015-06-09 22:45:42 -0400
+Processing by DogsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ClPrxZ/ZgQguX27msDvZsP/Wx7bozqAv7wobbOEKHb/LKMzhhag8blv/zcnXo2x9NsVKUQU0jpHAaWgkqSTawQ==", "dog"=>{"name"=>"Kenny", "age"=>"Senior", "description"=>"Born and raised on the wrong side of the tracks, Kennyis ready to migrate across the tracks and into a quality family. After experiencing the school of hard knock life, she is interested in perfecting her manners and blending in behind a white picket fence and maybe even having a sibling who is a pure bred golden retriever. She would enjoy having a sibling or two to hang out with and show her the way. She would enjoy learning all sorts of new things - like waling on a leash through a nice neighborhood, or sleeping on her very own dog bed. Kendra can be a little shy at first but will blossom with a kind and patient hand. She is learning to trust folks at the farm and understands that there are good people out there.", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa4844bfa20 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150609-25457-of2wy8.jpg>, @original_filename="adult3.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"adult3.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Dog", "id"=>"7"}
+  [1m[35mDog Load (0.2ms)[0m  SELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-1j76ddz.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-150t0m2.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-150t0m2.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-150t0m2.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-150t0m220150609-25457-14xdg8w'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-150t0m220150609-25457-14xdg8w'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-150t0m2.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-150t0m2.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-150t0m2.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-150t0m220150609-25457-1vx4y9l'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-150t0m220150609-25457-1vx4y9l'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-ptihzo.jpg'
+  [1m[35mSQL (0.4ms)[0m  UPDATE "dogs" SET "age" = ?, "avatar_file_name" = ?, "avatar_file_size" = ?, "avatar_updated_at" = ?, "updated_at" = ? WHERE "dogs"."id" = ?  [["age", "Senior"], ["avatar_file_name", "adult3.jpg"], ["avatar_file_size", 11470], ["avatar_updated_at", "2015-06-10 02:45:42.161390"], ["updated_at", "2015-06-10 02:45:42.351861"], ["id", 7]]
+[paperclip] deleting /Users/rudi1/Desktop/loving_dogs/public/system/dogs/avatars/000/000/007/original/young6.jpg
+[paperclip] deleting /Users/rudi1/Desktop/loving_dogs/public/system/dogs/avatars/000/000/007/medium/young6.jpg
+[paperclip] deleting /Users/rudi1/Desktop/loving_dogs/public/system/dogs/avatars/000/000/007/thumb/young6.jpg
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/dogs/7
+Completed 302 Found in 224ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/dogs/7" for ::1 at 2015-06-09 22:45:42 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mDog Load (0.2ms)[0m  SELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered dogs/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 85ms (Views: 74.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 22:45:44 -0400
+Processing by DogsController#index as HTML
+  [1m[36mDog Load (0.2ms)[0m  [1mSELECT "dogs".* FROM "dogs"[0m
+  Rendered dogs/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 79ms (Views: 77.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs/new" for ::1 at 2015-06-09 22:46:12 -0400
+Processing by DogsController#new as HTML
+  Rendered dogs/_form.html.erb (4.6ms)
+  Rendered dogs/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 94ms (Views: 93.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dogs" for ::1 at 2015-06-09 22:48:00 -0400
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1f3SXtFE8soS3v6De2hH/OXvnEAtJXNMCKVJ3B7WVEsUhvV6yzVPrGd+Xawc8PIxLPwRp8DfXfInxjqUVviTNQ==", "dog"=>{"name"=>"Patrick", "age"=>"Puppy", "description"=>"Cuteness alert!! Do not come and meet Patrick and his siblings unless you are truly ready to take one home! They are the perfect puppies and you won't want to leave without one. Patrick is fun, fearless, and loving. He plays hard but is often the first of the three to walk away from the play and seek warm arms to snuggle into for a nap. He's a little bit bigger than his siblings so may be slightly bigger than their mom who weighs just 20 pounds. Still, he'll be a nice portable size and would love to go along with any and all activities. Patrick and his brother and sister were the St. Patrick's Day surprise here at Saving Grace. Back in March their pregnant mom Torie arrived at the farm closer to having her babies than anyone knew! With only three little pups it didn't appear that she was as far along as she actually was, so it was a surprise when her babes were born just two days before St. Patrick's Day!", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa485c3db20 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150609-25457-mb32u9.jpg>, @original_filename="puppy5.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"puppy5.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Dog"}
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/68db78c0a00bce99a8fd0418d4d0fd5120150609-25457-rvpfqd.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/68db78c0a00bce99a8fd0418d4d0fd5120150609-25457-1q77uzu.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/68db78c0a00bce99a8fd0418d4d0fd5120150609-25457-1q77uzu.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/68db78c0a00bce99a8fd0418d4d0fd5120150609-25457-1q77uzu.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/68db78c0a00bce99a8fd0418d4d0fd5120150609-25457-1q77uzu20150609-25457-1jk7oue'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/68db78c0a00bce99a8fd0418d4d0fd5120150609-25457-1q77uzu20150609-25457-1jk7oue'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/68db78c0a00bce99a8fd0418d4d0fd5120150609-25457-1q77uzu.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/68db78c0a00bce99a8fd0418d4d0fd5120150609-25457-1q77uzu.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/68db78c0a00bce99a8fd0418d4d0fd5120150609-25457-1q77uzu.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/68db78c0a00bce99a8fd0418d4d0fd5120150609-25457-1q77uzu20150609-25457-13hgbvm'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/68db78c0a00bce99a8fd0418d4d0fd5120150609-25457-1q77uzu20150609-25457-13hgbvm'
+  [1m[35m (0.1ms)[0m  begin transaction
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/68db78c0a00bce99a8fd0418d4d0fd5120150609-25457-ug2m2h.jpg'
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "dogs" ("name", "age", "description", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Patrick"], ["age", "Puppy"], ["description", "Cuteness alert!! Do not come and meet Patrick and his siblings unless you are truly ready to take one home! They are the perfect puppies and you won't want to leave without one. Patrick is fun, fearless, and loving. He plays hard but is often the first of the three to walk away from the play and seek warm arms to snuggle into for a nap. He's a little bit bigger than his siblings so may be slightly bigger than their mom who weighs just 20 pounds. Still, he'll be a nice portable size and would love to go along with any and all activities. Patrick and his brother and sister were the St. Patrick's Day surprise here at Saving Grace. Back in March their pregnant mom Torie arrived at the farm closer to having her babies than anyone knew! With only three little pups it didn't appear that she was as far along as she actually was, so it was a surprise when her babes were born just two days before St. Patrick's Day!"], ["avatar_file_name", "puppy5.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 30767], ["avatar_updated_at", "2015-06-10 02:48:00.573716"], ["created_at", "2015-06-10 02:48:01.182798"], ["updated_at", "2015-06-10 02:48:01.182798"]]
+  [1m[35m (29.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/dogs/9
+Completed 302 Found in 680ms (ActiveRecord: 30.2ms)
+
+
+Started GET "/dogs/9" for ::1 at 2015-06-09 22:48:01 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mDog Load (0.2ms)[0m  [1mSELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1[0m  [["id", 9]]
+  Rendered dogs/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 166ms (Views: 164.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 22:48:03 -0400
+Processing by DogsController#index as HTML
+  [1m[35mDog Load (0.4ms)[0m  SELECT "dogs".* FROM "dogs"
+  Rendered dogs/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 136ms (Views: 135.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/dogs/new" for ::1 at 2015-06-09 22:48:14 -0400
+Processing by DogsController#new as HTML
+  Rendered dogs/_form.html.erb (3.6ms)
+  Rendered dogs/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 120ms (Views: 119.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dogs" for ::1 at 2015-06-09 22:50:10 -0400
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B3IGyB25XV/vq2tQPPXabWztt/eFOJ2OgVtXiTVgq8vGCSHsB8jgOZoLyH9bbW+gpf46EGjCszCuOCTBfU5stQ==", "dog"=>{"name"=>"Pepsi", "age"=>"Puppy", "description"=>"Dear Nancy is one of the three girls from this adorable litter of 7. Nancy is a darling little girl who loves all things - people, other dogs, nature and naps! Nancy is about 10 weeks old and will likely weigh in excess of 60 pounds when fully grown. She is all that anyone dreams of in a puppy - soft, fluffy, cuddly and fun. Nancy is doing great with her crate training and she is a very smart pup. Her foster mom reports that Nancy and her siblings were all excellent puppies and lovely house guests. They are quiet, happy and easy going pups. Nancy loves to run and play with her siblings and she would adore to have someone to play with her every day. She is a peach of a pup and she is waiting to meet you.", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa485a339b0 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150609-25457-1xsqw2p.jpg>, @original_filename="puppy4.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"puppy4.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Dog"}
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/9f7a181b214da278d7abc62b764f748e20150609-25457-17x3wxg.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/9f7a181b214da278d7abc62b764f748e20150609-25457-1kiqha1.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/9f7a181b214da278d7abc62b764f748e20150609-25457-1kiqha1.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/9f7a181b214da278d7abc62b764f748e20150609-25457-1kiqha1.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/9f7a181b214da278d7abc62b764f748e20150609-25457-1kiqha120150609-25457-dkt8zv'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/9f7a181b214da278d7abc62b764f748e20150609-25457-1kiqha120150609-25457-dkt8zv'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/9f7a181b214da278d7abc62b764f748e20150609-25457-1kiqha1.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/9f7a181b214da278d7abc62b764f748e20150609-25457-1kiqha1.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/9f7a181b214da278d7abc62b764f748e20150609-25457-1kiqha1.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/9f7a181b214da278d7abc62b764f748e20150609-25457-1kiqha120150609-25457-1h5k9o9'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/9f7a181b214da278d7abc62b764f748e20150609-25457-1kiqha120150609-25457-1h5k9o9'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/9f7a181b214da278d7abc62b764f748e20150609-25457-1vufu55.jpg'
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "dogs" ("name", "age", "description", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Pepsi"], ["age", "Puppy"], ["description", "Dear Nancy is one of the three girls from this adorable litter of 7. Nancy is a darling little girl who loves all things - people, other dogs, nature and naps! Nancy is about 10 weeks old and will likely weigh in excess of 60 pounds when fully grown. She is all that anyone dreams of in a puppy - soft, fluffy, cuddly and fun. Nancy is doing great with her crate training and she is a very smart pup. Her foster mom reports that Nancy and her siblings were all excellent puppies and lovely house guests. They are quiet, happy and easy going pups. Nancy loves to run and play with her siblings and she would adore to have someone to play with her every day. She is a peach of a pup and she is waiting to meet you."], ["avatar_file_name", "puppy4.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 16958], ["avatar_updated_at", "2015-06-10 02:50:10.761710"], ["created_at", "2015-06-10 02:50:11.213924"], ["updated_at", "2015-06-10 02:50:11.213924"]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/dogs/10
+Completed 302 Found in 504ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/dogs/10" for ::1 at 2015-06-09 22:50:11 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mDog Load (0.2ms)[0m  SELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1  [["id", 10]]
+  Rendered dogs/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 146ms (Views: 144.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 22:50:13 -0400
+Processing by DogsController#index as HTML
+  [1m[36mDog Load (0.3ms)[0m  [1mSELECT "dogs".* FROM "dogs"[0m
+  Rendered dogs/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 147ms (Views: 146.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dogs/new" for ::1 at 2015-06-09 22:50:37 -0400
+Processing by DogsController#new as HTML
+  Rendered dogs/_form.html.erb (2.9ms)
+  Rendered dogs/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 78ms (Views: 77.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dogs" for ::1 at 2015-06-09 22:52:05 -0400
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b/0ELXM50HhWvtoBKI9XSGRxYQBjhSn0NvV4fOOi0FeuhiMJaUhtHiMeeS5PF+KFrWLs545/B0oZlgs0q4wXKQ==", "dog"=>{"name"=>"Parker", "age"=>"Puppy", "description"=>"We don't know how a pup can get any cuter than our tiny Parker. This peanut is adorable. His little black and brown coat is so handsome and he is just as sweet as he can be. Parker and his sister Bella came to us with their mom from a rural shelter. They spent their first weeks in a loving foster home where they were socialized with other dogs and visits from kids. Parker is a tiny 4 pounds right now at 10 weeks old. But he should weigh about 10 pounds when fully grown. He is such a little doll. He is doing great with his crate training and sleeps quietly all night. He likes to play and enjoys meeting new people. He loves to be held and snuggled. He will make a great take along partner for any adventure. parker is very ready for his forever person or family to come and get him. He would love to meet you today!", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa485d19418 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150609-25457-11qx6s1.jpg>, @original_filename="puppy2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"puppy2.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Dog"}
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/e20be7dc5e8e8dd1715e06f314e94f2c20150609-25457-1l2lsu3.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/e20be7dc5e8e8dd1715e06f314e94f2c20150609-25457-12hlsfu.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/e20be7dc5e8e8dd1715e06f314e94f2c20150609-25457-12hlsfu.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/e20be7dc5e8e8dd1715e06f314e94f2c20150609-25457-12hlsfu.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/e20be7dc5e8e8dd1715e06f314e94f2c20150609-25457-12hlsfu20150609-25457-1fwz9c6'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/e20be7dc5e8e8dd1715e06f314e94f2c20150609-25457-12hlsfu20150609-25457-1fwz9c6'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/e20be7dc5e8e8dd1715e06f314e94f2c20150609-25457-12hlsfu.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/e20be7dc5e8e8dd1715e06f314e94f2c20150609-25457-12hlsfu.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/e20be7dc5e8e8dd1715e06f314e94f2c20150609-25457-12hlsfu.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/e20be7dc5e8e8dd1715e06f314e94f2c20150609-25457-12hlsfu20150609-25457-1ydiop2'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/e20be7dc5e8e8dd1715e06f314e94f2c20150609-25457-12hlsfu20150609-25457-1ydiop2'
+  [1m[35m (0.2ms)[0m  begin transaction
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/e20be7dc5e8e8dd1715e06f314e94f2c20150609-25457-119mm56.jpg'
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "dogs" ("name", "age", "description", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Parker"], ["age", "Puppy"], ["description", "We don't know how a pup can get any cuter than our tiny Parker. This peanut is adorable. His little black and brown coat is so handsome and he is just as sweet as he can be. Parker and his sister Bella came to us with their mom from a rural shelter. They spent their first weeks in a loving foster home where they were socialized with other dogs and visits from kids. Parker is a tiny 4 pounds right now at 10 weeks old. But he should weigh about 10 pounds when fully grown. He is such a little doll. He is doing great with his crate training and sleeps quietly all night. He likes to play and enjoys meeting new people. He loves to be held and snuggled. He will make a great take along partner for any adventure. parker is very ready for his forever person or family to come and get him. He would love to meet you today!"], ["avatar_file_name", "puppy2.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 22594], ["avatar_updated_at", "2015-06-10 02:52:05.792138"], ["created_at", "2015-06-10 02:52:06.579961"], ["updated_at", "2015-06-10 02:52:06.579961"]]
+  [1m[35m (1.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/dogs/11
+Completed 302 Found in 838ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/dogs/11" for ::1 at 2015-06-09 22:52:06 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mDog Load (0.1ms)[0m  [1mSELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1[0m  [["id", 11]]
+  Rendered dogs/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 159ms (Views: 157.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 22:52:09 -0400
+Processing by DogsController#index as HTML
+  [1m[35mDog Load (0.3ms)[0m  SELECT "dogs".* FROM "dogs"
+  Rendered dogs/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 119ms (Views: 118.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dogs/new" for ::1 at 2015-06-09 22:52:30 -0400
+Processing by DogsController#new as HTML
+  Rendered dogs/_form.html.erb (3.2ms)
+  Rendered dogs/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 110ms (Views: 109.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dogs" for ::1 at 2015-06-09 22:55:35 -0400
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHsqp0JMMVVI5Rw4Hyqs8bWPbQNWuqblMASqVddBySm5AA2DWD2MMz1Fvxd4shk8fJzg5LtAiFsfZ9kdn28OVw==", "dog"=>{"name"=>"Leland", "age"=>"Puppy", "description"=>"Leaping lizards - it is Leland! Leland is a loving little guy with so much to offer. He and his much fluffier brother, Allen, came to the Saving Grace program from a rural shelter. They had not had a lot of attention or care before arriving, but thanks to the extra TLC they received in a wonderful foster home, they are doing great. Leland is doing great with his crate training. He sleeps quietly all night and no messes in the morning. While he is still a pup at 8 months old, he is well on his way to being a well-mannered young adult. He should be about 18 pounds when fully grown. He is truly a mix of lots of things but we think he is a perfect little mix. He enjoys being with other dogs and would happily join an existing dog or pack at your home. He is affectionate and sweet. He will need a patient home at first to help him adjust to a new situation."}, "commit"=>"Create Dog"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "dogs" ("name", "age", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Leland"], ["age", "Puppy"], ["description", "Leaping lizards - it is Leland! Leland is a loving little guy with so much to offer. He and his much fluffier brother, Allen, came to the Saving Grace program from a rural shelter. They had not had a lot of attention or care before arriving, but thanks to the extra TLC they received in a wonderful foster home, they are doing great. Leland is doing great with his crate training. He sleeps quietly all night and no messes in the morning. While he is still a pup at 8 months old, he is well on his way to being a well-mannered young adult. He should be about 18 pounds when fully grown. He is truly a mix of lots of things but we think he is a perfect little mix. He enjoys being with other dogs and would happily join an existing dog or pack at your home. He is affectionate and sweet. He will need a patient home at first to help him adjust to a new situation."], ["created_at", "2015-06-10 02:55:35.732807"], ["updated_at", "2015-06-10 02:55:35.732807"]]
+  [1m[36m (37.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/dogs/12
+Completed 302 Found in 44ms (ActiveRecord: 38.4ms)
+
+
+Started GET "/dogs/12" for ::1 at 2015-06-09 22:55:35 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mDog Load (0.2ms)[0m  SELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1  [["id", 12]]
+  Rendered dogs/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 125ms (Views: 123.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/original/missing.png" for ::1 at 2015-06-09 22:55:35 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/original/missing.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (128.7ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (68.8ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (204.7ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 22:55:39 -0400
+Processing by DogsController#index as HTML
+  [1m[36mDog Load (0.3ms)[0m  [1mSELECT "dogs".* FROM "dogs"[0m
+  Rendered dogs/index.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 116ms (Views: 114.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/medium/missing.png" for ::1 at 2015-06-09 22:55:39 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (96.0ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (61.7ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/rudi1/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (145.0ms)
+
+
+Started GET "/dogs/12/edit" for ::1 at 2015-06-09 22:55:47 -0400
+Processing by DogsController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mDog Load (0.2ms)[0m  SELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1  [["id", 12]]
+  Rendered dogs/_form.html.erb (3.2ms)
+  Rendered dogs/edit.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 116ms (Views: 115.2ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/dogs/12" for ::1 at 2015-06-09 22:56:08 -0400
+Processing by DogsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2l64s+bkSw7JwHUwSg+ID9VScVTGV2HzMJ7wsAzRC58bJZ+X/JX2aLxg1h8tlz3CHEH8syutT00f/YP4RP/M4Q==", "dog"=>{"name"=>"Leland", "age"=>"Puppy", "description"=>"Leaping lizards - it is Leland! Leland is a loving little guy with so much to offer. He and his much fluffier brother, Allen, came to the Saving Grace program from a rural shelter. They had not had a lot of attention or care before arriving, but thanks to the extra TLC they received in a wonderful foster home, they are doing great. Leland is doing great with his crate training. He sleeps quietly all night and no messes in the morning. While he is still a pup at 8 months old, he is well on his way to being a well-mannered young adult. He should be about 18 pounds when fully grown. He is truly a mix of lots of things but we think he is a perfect little mix. He enjoys being with other dogs and would happily join an existing dog or pack at your home. He is affectionate and sweet. He will need a patient home at first to help him adjust to a new situation.", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa485b34df0 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150609-25457-geok7o.jpg>, @original_filename="puppy1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"puppy1.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Dog", "id"=>"12"}
+  [1m[36mDog Load (0.1ms)[0m  [1mSELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35m (0.1ms)[0m  begin transaction
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/12f342d744fe39159c9e9f9078e48b6920150609-25457-2xcwi.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/12f342d744fe39159c9e9f9078e48b6920150609-25457-1la1mt0.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/12f342d744fe39159c9e9f9078e48b6920150609-25457-1la1mt0.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/12f342d744fe39159c9e9f9078e48b6920150609-25457-1la1mt0.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/12f342d744fe39159c9e9f9078e48b6920150609-25457-1la1mt020150609-25457-1fzczch'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/12f342d744fe39159c9e9f9078e48b6920150609-25457-1la1mt020150609-25457-1fzczch'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/12f342d744fe39159c9e9f9078e48b6920150609-25457-1la1mt0.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/12f342d744fe39159c9e9f9078e48b6920150609-25457-1la1mt0.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/12f342d744fe39159c9e9f9078e48b6920150609-25457-1la1mt0.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/12f342d744fe39159c9e9f9078e48b6920150609-25457-1la1mt020150609-25457-iy6awd'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/12f342d744fe39159c9e9f9078e48b6920150609-25457-1la1mt020150609-25457-iy6awd'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/12f342d744fe39159c9e9f9078e48b6920150609-25457-t9tgz7.jpg'
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "dogs" SET "avatar_file_name" = ?, "avatar_content_type" = ?, "avatar_file_size" = ?, "avatar_updated_at" = ?, "updated_at" = ? WHERE "dogs"."id" = ?[0m  [["avatar_file_name", "puppy1.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 16711], ["avatar_updated_at", "2015-06-10 02:56:08.694710"], ["updated_at", "2015-06-10 02:56:09.078232"], ["id", 12]]
+  [1m[35m (1.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/dogs/12
+Completed 302 Found in 426ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/dogs/12" for ::1 at 2015-06-09 22:56:09 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDog Load (0.2ms)[0m  [1mSELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1[0m  [["id", 12]]
+  Rendered dogs/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 108ms (Views: 106.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 22:56:15 -0400
+Processing by DogsController#index as HTML
+  [1m[35mDog Load (0.2ms)[0m  SELECT "dogs".* FROM "dogs"
+  Rendered dogs/index.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 158ms (Views: 157.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs/new" for ::1 at 2015-06-09 22:57:31 -0400
+Processing by DogsController#new as HTML
+  Rendered dogs/_form.html.erb (3.2ms)
+  Rendered dogs/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 440ms (Views: 438.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dogs" for ::1 at 2015-06-09 22:59:30 -0400
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rUaFDXkKWetw4bOUM9HXWsIxitBLlKTWhHjfL6oKjfpsPaIpY3vkjQVBELtUSWKXCyIHN6ZuimirG6xn4iRKhA==", "dog"=>{"name"=>"Bella", "age"=>"Puppy", "description"=>"Bella is about 10 weeks old and weighs about 4 pounds right now. She should be about 10 pounds when fully grown. Bella is a snuggle bug and loves to be held. She enjoys playing and exploring but her favorite thing is just being adored. She would love to be your side kick for errands or visiting friends and family. So portable and easy to take along, Bella is hoping to be a forever companion for someone very loving. She is doing great with her crate training and sleeps quietly all night. She and her brother have been in a wonderful foster home and were socialized with other dogs and kids. Bella would love to meet you today! ", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa484315e18 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150609-25457-atdqt4.jpg>, @original_filename="puppy3.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"puppy3.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Dog"}
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/eaea3eb0f37c3cf4f7e7be4aed33b44720150609-25457-1ujer47.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/eaea3eb0f37c3cf4f7e7be4aed33b44720150609-25457-13eog1u.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/eaea3eb0f37c3cf4f7e7be4aed33b44720150609-25457-13eog1u.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/eaea3eb0f37c3cf4f7e7be4aed33b44720150609-25457-13eog1u.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/eaea3eb0f37c3cf4f7e7be4aed33b44720150609-25457-13eog1u20150609-25457-1khjbax'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/eaea3eb0f37c3cf4f7e7be4aed33b44720150609-25457-13eog1u20150609-25457-1khjbax'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/eaea3eb0f37c3cf4f7e7be4aed33b44720150609-25457-13eog1u.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/eaea3eb0f37c3cf4f7e7be4aed33b44720150609-25457-13eog1u.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/eaea3eb0f37c3cf4f7e7be4aed33b44720150609-25457-13eog1u.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/eaea3eb0f37c3cf4f7e7be4aed33b44720150609-25457-13eog1u20150609-25457-woz1z0'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/eaea3eb0f37c3cf4f7e7be4aed33b44720150609-25457-13eog1u20150609-25457-woz1z0'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/eaea3eb0f37c3cf4f7e7be4aed33b44720150609-25457-rytbqx.jpg'
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "dogs" ("name", "age", "description", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Bella"], ["age", "Puppy"], ["description", "Bella is about 10 weeks old and weighs about 4 pounds right now. She should be about 10 pounds when fully grown. Bella is a snuggle bug and loves to be held. She enjoys playing and exploring but her favorite thing is just being adored. She would love to be your side kick for errands or visiting friends and family. So portable and easy to take along, Bella is hoping to be a forever companion for someone very loving. She is doing great with her crate training and sleeps quietly all night. She and her brother have been in a wonderful foster home and were socialized with other dogs and kids. Bella would love to meet you today! "], ["avatar_file_name", "puppy3.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 73601], ["avatar_updated_at", "2015-06-10 02:59:30.437758"], ["created_at", "2015-06-10 02:59:30.765700"], ["updated_at", "2015-06-10 02:59:30.765700"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/dogs/13
+Completed 302 Found in 353ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/dogs/13" for ::1 at 2015-06-09 22:59:30 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[35mDog Load (0.2ms)[0m  SELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1  [["id", 13]]
+  Rendered dogs/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 80ms (Views: 78.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 22:59:32 -0400
+Processing by DogsController#index as HTML
+  [1m[36mDog Load (0.5ms)[0m  [1mSELECT "dogs".* FROM "dogs"[0m
+  Rendered dogs/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 95ms (Views: 93.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/dogs/new" for ::1 at 2015-06-09 23:03:20 -0400
+Processing by DogsController#new as HTML
+  Rendered dogs/_form.html.erb (3.1ms)
+  Rendered dogs/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 164ms (Views: 163.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dogs" for ::1 at 2015-06-09 23:08:16 -0400
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A4S0HrRspZwKFGz2hvBY6zCgQW3sO7k5l4t4FaLhRNnC/5M6rh0Y+n+0z9nhaO0m+bPMigHBl4e46Atd6s+Dpw==", "dog"=>{"name"=>"Lucky", "age"=>"Puppy", "description"=>"She is just a joyful girl with a great personality. She loves to be outside with her friends exploring the farm, but will always seek out a lap to sit on and cuddle. She is polite with other dogs and nicely asks them to play with her. She has a fun but not crazy energy level. She loves other dogs and loves all people. She enjoys playing with toys and would be fun to have as a partner to share great adventures with, but would gladly settle down for snuggle time too. While she has no formal manners to speak of, she is very smart and observant and very motivated to please people. So she should be a quick study of any new tricks and the house rules too. Easy to train, fun to be with, perfect size and happy every day. What more could you ask for in a pup or dog??", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa485c04d20 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150609-25457-1tewtsa.jpg>, @original_filename="puppy6.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"puppy6.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Dog"}
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/24bec89d7757e2419729fa376c67927b20150609-25457-1tquic8.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/24bec89d7757e2419729fa376c67927b20150609-25457-169rwx.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/24bec89d7757e2419729fa376c67927b20150609-25457-169rwx.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/24bec89d7757e2419729fa376c67927b20150609-25457-169rwx.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/24bec89d7757e2419729fa376c67927b20150609-25457-169rwx20150609-25457-w57ssb'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/24bec89d7757e2419729fa376c67927b20150609-25457-169rwx20150609-25457-w57ssb'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/24bec89d7757e2419729fa376c67927b20150609-25457-169rwx.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/24bec89d7757e2419729fa376c67927b20150609-25457-169rwx.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/24bec89d7757e2419729fa376c67927b20150609-25457-169rwx.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/24bec89d7757e2419729fa376c67927b20150609-25457-169rwx20150609-25457-vy1hsp'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/24bec89d7757e2419729fa376c67927b20150609-25457-169rwx20150609-25457-vy1hsp'
+  [1m[35m (0.1ms)[0m  begin transaction
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/24bec89d7757e2419729fa376c67927b20150609-25457-19uznaj.jpg'
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "dogs" ("name", "age", "description", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Lucky"], ["age", "Puppy"], ["description", "She is just a joyful girl with a great personality. She loves to be outside with her friends exploring the farm, but will always seek out a lap to sit on and cuddle. She is polite with other dogs and nicely asks them to play with her. She has a fun but not crazy energy level. She loves other dogs and loves all people. She enjoys playing with toys and would be fun to have as a partner to share great adventures with, but would gladly settle down for snuggle time too. While she has no formal manners to speak of, she is very smart and observant and very motivated to please people. So she should be a quick study of any new tricks and the house rules too. Easy to train, fun to be with, perfect size and happy every day. What more could you ask for in a pup or dog??"], ["avatar_file_name", "puppy6.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 9993], ["avatar_updated_at", "2015-06-10 03:08:16.030909"], ["created_at", "2015-06-10 03:08:16.981920"], ["updated_at", "2015-06-10 03:08:16.981920"]]
+  [1m[35m (1.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/dogs/14
+Completed 302 Found in 989ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/dogs/14" for ::1 at 2015-06-09 23:08:17 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mDog Load (0.1ms)[0m  [1mSELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1[0m  [["id", 14]]
+  Rendered dogs/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 261ms (Views: 259.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 23:08:19 -0400
+Processing by DogsController#index as HTML
+  [1m[35mDog Load (0.3ms)[0m  SELECT "dogs".* FROM "dogs"
+  Rendered dogs/index.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 126ms (Views: 125.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dogs/new" for ::1 at 2015-06-09 23:09:13 -0400
+Processing by DogsController#new as HTML
+  Rendered dogs/_form.html.erb (5.4ms)
+  Rendered dogs/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 149ms (Views: 148.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dogs" for ::1 at 2015-06-09 23:11:00 -0400
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0qa8cWQJIOKccN9egrPR5dC3jner0JKCpUtlchYBhOAT3ZtVfnidhOnQfHHlK2QoGaQDkEYqvDyKKBY6Xi9Dng==", "dog"=>{"name"=>"Kate Lynn", "age"=>"Senior", "description"=>"Kate Lynn has quickly come the SG Ambassador. She is mature adult girl who found herself in a rural shelter after her owner died. She was sad at first, and wondered what had happened to her life, as she had clearly been loved. But she is a girl who always finds a silver lining in every situation. She is enjoying having new experiences and making new friends at the farm. She enjoys being outside to explore the farm, watch the squirrels and birds, and greet everyone that comes to visit. She is a lovely and pretty girl of about 8 years of age. She is fully grown at about 50 pounds. She still has a lot of life and love to give to a special person or family and she is very ready to begin her second chapter in life. Kate Lynn would love daily walks and would enjoy hanging out in the yard to help with the gardening. She is great with other dogs but would be fine as a solo dog as well. She is good in her crate and sleeps all night without a peep. She is a lovely girl who is quiet, not demanding, and very loving.", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa484636688 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150609-25457-pwu2k9.jpg>, @original_filename="adult1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"adult1.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Dog"}
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/2445811f5e661a4998b7770d844a73e820150609-25457-1svn6mx.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/2445811f5e661a4998b7770d844a73e820150609-25457-nizpd7.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/2445811f5e661a4998b7770d844a73e820150609-25457-nizpd7.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/2445811f5e661a4998b7770d844a73e820150609-25457-nizpd7.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/2445811f5e661a4998b7770d844a73e820150609-25457-nizpd720150609-25457-jij0dd'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/2445811f5e661a4998b7770d844a73e820150609-25457-nizpd720150609-25457-jij0dd'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/2445811f5e661a4998b7770d844a73e820150609-25457-nizpd7.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/2445811f5e661a4998b7770d844a73e820150609-25457-nizpd7.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/2445811f5e661a4998b7770d844a73e820150609-25457-nizpd7.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/2445811f5e661a4998b7770d844a73e820150609-25457-nizpd720150609-25457-ekjsa1'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/2445811f5e661a4998b7770d844a73e820150609-25457-nizpd720150609-25457-ekjsa1'
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/2445811f5e661a4998b7770d844a73e820150609-25457-8u699p.jpg'
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "dogs" ("name", "age", "description", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Kate Lynn"], ["age", "Senior"], ["description", "Kate Lynn has quickly come the SG Ambassador. She is mature adult girl who found herself in a rural shelter after her owner died. She was sad at first, and wondered what had happened to her life, as she had clearly been loved. But she is a girl who always finds a silver lining in every situation. She is enjoying having new experiences and making new friends at the farm. She enjoys being outside to explore the farm, watch the squirrels and birds, and greet everyone that comes to visit. She is a lovely and pretty girl of about 8 years of age. She is fully grown at about 50 pounds. She still has a lot of life and love to give to a special person or family and she is very ready to begin her second chapter in life. Kate Lynn would love daily walks and would enjoy hanging out in the yard to help with the gardening. She is great with other dogs but would be fine as a solo dog as well. She is good in her crate and sleeps all night without a peep. She is a lovely girl who is quiet, not demanding, and very loving."], ["avatar_file_name", "adult1.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 13424], ["avatar_updated_at", "2015-06-10 03:11:00.453330"], ["created_at", "2015-06-10 03:11:01.017675"], ["updated_at", "2015-06-10 03:11:01.017675"]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/dogs/15
+Completed 302 Found in 610ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/dogs/15" for ::1 at 2015-06-09 23:11:01 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[35mDog Load (0.2ms)[0m  SELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1  [["id", 15]]
+  Rendered dogs/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 145ms (Views: 142.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 23:11:03 -0400
+Processing by DogsController#index as HTML
+  [1m[36mDog Load (0.4ms)[0m  [1mSELECT "dogs".* FROM "dogs"[0m
+  Rendered dogs/index.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 104ms (Views: 102.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/dogs/15/edit" for ::1 at 2015-06-09 23:11:12 -0400
+Processing by DogsController#edit as HTML
+  Parameters: {"id"=>"15"}
+  [1m[35mDog Load (0.1ms)[0m  SELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1  [["id", 15]]
+  Rendered dogs/_form.html.erb (3.5ms)
+  Rendered dogs/edit.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 91ms (Views: 89.6ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/dogs/15" for ::1 at 2015-06-09 23:12:59 -0400
+Processing by DogsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"c9U90K5R52n+JrI4kntKWpPnZdLlA44zBkgOaJTwrG6yrhr0tCBaD4uGERf14/+XWvToNQj5oI0pK30g3N5rEA==", "dog"=>{"name"=>"Kate Lynn", "age"=>"Senior", "description"=>"Kate Lynn has quickly come the SG Ambassador. She is mature adult girl who found herself in a rural shelter after her owner died. She was sad at first, and wondered what had happened to her life, as she had clearly been loved. But she is a girl who always finds a silver lining in every situation. She is enjoying having new experiences and making new friends at the farm. She enjoys being outside to explore the farm, watch the squirrels and birds, and greet everyone that comes to visit. She is a lovely and pretty girl of about 8 years of age. She is fully grown at about 50 pounds. She still has a lot of life and love to give to a special person or family and she is very ready to begin her second chapter in life. Kate Lynn would love daily walks and would enjoy hanging out in the yard to help with the gardening. She is great with other dogs but would be fine as a solo dog as well. "}, "commit"=>"Update Dog", "id"=>"15"}
+  [1m[36mDog Load (0.1ms)[0m  [1mSELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1[0m  [["id", 15]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mUPDATE "dogs" SET "description" = ?, "updated_at" = ? WHERE "dogs"."id" = ?[0m  [["description", "Kate Lynn has quickly come the SG Ambassador. She is mature adult girl who found herself in a rural shelter after her owner died. She was sad at first, and wondered what had happened to her life, as she had clearly been loved. But she is a girl who always finds a silver lining in every situation. She is enjoying having new experiences and making new friends at the farm. She enjoys being outside to explore the farm, watch the squirrels and birds, and greet everyone that comes to visit. She is a lovely and pretty girl of about 8 years of age. She is fully grown at about 50 pounds. She still has a lot of life and love to give to a special person or family and she is very ready to begin her second chapter in life. Kate Lynn would love daily walks and would enjoy hanging out in the yard to help with the gardening. She is great with other dogs but would be fine as a solo dog as well. "], ["updated_at", "2015-06-10 03:12:59.854742"], ["id", 15]]
+  [1m[35m (1.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/dogs/15
+Completed 302 Found in 7ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/dogs/15" for ::1 at 2015-06-09 23:12:59 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mDog Load (0.1ms)[0m  [1mSELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1[0m  [["id", 15]]
+  Rendered dogs/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 239ms (Views: 237.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 23:13:01 -0400
+Processing by DogsController#index as HTML
+  [1m[35mDog Load (0.4ms)[0m  SELECT "dogs".* FROM "dogs"
+  Rendered dogs/index.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 103ms (Views: 101.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/dogs/new" for ::1 at 2015-06-09 23:13:45 -0400
+Processing by DogsController#new as HTML
+  Rendered dogs/_form.html.erb (3.0ms)
+  Rendered dogs/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 111ms (Views: 110.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dogs" for ::1 at 2015-06-09 23:16:21 -0400
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Q6Z4x4tQztUwOx3lLH9xpSyEw+N4wr5I2eN1NCyUcCmC3V/jkSFzs0WbvspL58Ro5ZdOBJU4kPb2gAZ8ZLq3Vw==", "dog"=>{"name"=>"Meeko", "age"=>"Senior", "description"=>"Precious Meeko is a sweet senior who is very confused as to how he ended up at the farm. His previous owner sadly had to go into a hospice and the family members were unable to care for him and his canine siblings, so they were all turned into the shelter. At about 9 years old Meeko thought he was to live out his life with his long term companion, but that was not to be. He is adjusting to the change in his situation at the farm but would like nothing better than to find his own special person again. He will be a loyal and undemanding boy who would enjoy joining in with any kind of family activities. Although on the older side he is a healthy boy and is still lively enough for daily walks and lots of loving.", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa4872896b8 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150609-25457-11xgtpp.jpg>, @original_filename="adult2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"adult2.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Dog"}
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/183101070c87a1a90bde6eddbb8bba7820150609-25457-1mlp6z0.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/183101070c87a1a90bde6eddbb8bba7820150609-25457-mixqs.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/183101070c87a1a90bde6eddbb8bba7820150609-25457-mixqs.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/183101070c87a1a90bde6eddbb8bba7820150609-25457-mixqs.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/183101070c87a1a90bde6eddbb8bba7820150609-25457-mixqs20150609-25457-h264eh'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/183101070c87a1a90bde6eddbb8bba7820150609-25457-mixqs20150609-25457-h264eh'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/183101070c87a1a90bde6eddbb8bba7820150609-25457-mixqs.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/183101070c87a1a90bde6eddbb8bba7820150609-25457-mixqs.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/183101070c87a1a90bde6eddbb8bba7820150609-25457-mixqs.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/183101070c87a1a90bde6eddbb8bba7820150609-25457-mixqs20150609-25457-gij036'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/183101070c87a1a90bde6eddbb8bba7820150609-25457-mixqs20150609-25457-gij036'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/183101070c87a1a90bde6eddbb8bba7820150609-25457-13afvnz.jpg'
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "dogs" ("name", "age", "description", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Meeko"], ["age", "Senior"], ["description", "Precious Meeko is a sweet senior who is very confused as to how he ended up at the farm. His previous owner sadly had to go into a hospice and the family members were unable to care for him and his canine siblings, so they were all turned into the shelter. At about 9 years old Meeko thought he was to live out his life with his long term companion, but that was not to be. He is adjusting to the change in his situation at the farm but would like nothing better than to find his own special person again. He will be a loyal and undemanding boy who would enjoy joining in with any kind of family activities. Although on the older side he is a healthy boy and is still lively enough for daily walks and lots of loving."], ["avatar_file_name", "adult2.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 66189], ["avatar_updated_at", "2015-06-10 03:16:21.930467"], ["created_at", "2015-06-10 03:16:22.687300"], ["updated_at", "2015-06-10 03:16:22.687300"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/dogs/16
+Completed 302 Found in 780ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/dogs/16" for ::1 at 2015-06-09 23:16:22 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[35mDog Load (0.1ms)[0m  SELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1  [["id", 16]]
+  Rendered dogs/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 188ms (Views: 186.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 23:16:24 -0400
+Processing by DogsController#index as HTML
+  [1m[36mDog Load (0.3ms)[0m  [1mSELECT "dogs".* FROM "dogs"[0m
+  Rendered dogs/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 105ms (Views: 104.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dogs/new" for ::1 at 2015-06-09 23:17:38 -0400
+Processing by DogsController#new as HTML
+  Rendered dogs/_form.html.erb (3.1ms)
+  Rendered dogs/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 158ms (Views: 156.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dogs" for ::1 at 2015-06-09 23:20:07 -0400
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHDvfevB+xIgCym/X9tdzebSd3NTdEJcFvGchXJ24sm5C8hZ8bBGdFWripA4Q+gAL8H6lL6ObOI5ku/NOlgltw==", "dog"=>{"name"=>"Shug", "age"=>"Senior", "description"=>"Shug is an absolute goof ball who should never be expected to graduate at the top of his class, and may not be an agility candidate, but will take the gold in the love muffin competition. He is so busy smiling and being happy that he may trip over his long legs to get to you for belly rubs. He loves to play with tennis balls as long as it involves his people playing with him. Shugis tall, lanky, and goofy but super gentle and would be a great dog to join any family. He does well in the car and is quiet in his crate, waiting patiently for meal and playtime. He doesnâ\u0080\u0099t have any formal training but his amazing personality and sweet temperament are simply the best. If youâ\u0080\u0099re looking for a goofy, sweet dog to join your family then Shug is your boy.", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa485f75568 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150609-25457-87et4f.jpg>, @original_filename="adult6.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"adult6.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Dog"}
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/f414954637bdb003f9f22bbe8d78683220150609-25457-ofqz1c.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/f414954637bdb003f9f22bbe8d78683220150609-25457-ejp2lu.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/f414954637bdb003f9f22bbe8d78683220150609-25457-ejp2lu.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/f414954637bdb003f9f22bbe8d78683220150609-25457-ejp2lu.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/f414954637bdb003f9f22bbe8d78683220150609-25457-ejp2lu20150609-25457-1pd0c56'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/f414954637bdb003f9f22bbe8d78683220150609-25457-ejp2lu20150609-25457-1pd0c56'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/f414954637bdb003f9f22bbe8d78683220150609-25457-ejp2lu.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/f414954637bdb003f9f22bbe8d78683220150609-25457-ejp2lu.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/f414954637bdb003f9f22bbe8d78683220150609-25457-ejp2lu.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/f414954637bdb003f9f22bbe8d78683220150609-25457-ejp2lu20150609-25457-6wdw5d'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/f414954637bdb003f9f22bbe8d78683220150609-25457-ejp2lu20150609-25457-6wdw5d'
+  [1m[35m (0.2ms)[0m  begin transaction
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/f414954637bdb003f9f22bbe8d78683220150609-25457-pasmz7.jpg'
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "dogs" ("name", "age", "description", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Shug"], ["age", "Senior"], ["description", "Shug is an absolute goof ball who should never be expected to graduate at the top of his class, and may not be an agility candidate, but will take the gold in the love muffin competition. He is so busy smiling and being happy that he may trip over his long legs to get to you for belly rubs. He loves to play with tennis balls as long as it involves his people playing with him. Shugis tall, lanky, and goofy but super gentle and would be a great dog to join any family. He does well in the car and is quiet in his crate, waiting patiently for meal and playtime. He doesnâ\u0080\u0099t have any formal training but his amazing personality and sweet temperament are simply the best. If youâ\u0080\u0099re looking for a goofy, sweet dog to join your family then Shug is your boy."], ["avatar_file_name", "adult6.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 50081], ["avatar_updated_at", "2015-06-10 03:20:07.256803"], ["created_at", "2015-06-10 03:20:07.884691"], ["updated_at", "2015-06-10 03:20:07.884691"]]
+  [1m[35m (19.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/dogs/17
+Completed 302 Found in 691ms (ActiveRecord: 19.9ms)
+
+
+Started GET "/dogs/17" for ::1 at 2015-06-09 23:20:08 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mDog Load (0.2ms)[0m  [1mSELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1[0m  [["id", 17]]
+  Rendered dogs/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 149ms (Views: 147.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 23:20:11 -0400
+Processing by DogsController#index as HTML
+  [1m[35mDog Load (0.4ms)[0m  SELECT "dogs".* FROM "dogs"
+  Rendered dogs/index.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 180ms (Views: 179.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/dogs/new" for ::1 at 2015-06-09 23:20:33 -0400
+Processing by DogsController#new as HTML
+  Rendered dogs/_form.html.erb (3.3ms)
+  Rendered dogs/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 83ms (Views: 82.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dogs" for ::1 at 2015-06-09 23:29:08 -0400
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"APG8baS1J2L4aigTJ6ftTEmMIAtvUiXTaK9MGOYxGH/BiptJvsSaBI3KizxAP1iBgJ+t7IKoC21HzD9Qrh/fAQ==", "dog"=>{"name"=>"Pebbles", "age"=>"Senior", "description"=>"From a rough background Parker has blossomed at the shelter.he gets along well with others and crates well but needs something to do and someone to do it with! Hiking, boating, a good game of fetch are all up Jeffersonâ\u0080\u0099s alley. He may not graduate at the top of his obedience class but he will run over everyone trying. With some solid leadership and quality training time Jefferson will be an amazing and loyal companion. Jefferson currently weighs about 50lbs and is very focused on his people. He would likely do very well a off leash\u0080\u009D at the beach or on hikes with some additional training. Everyone at the farm agrees that Jefferson likes to be the life of the party and is sure to welcome anyone to a party in your home. This is a boy who celebrates life all day every day and simply can't wait to meet his family! ", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa4847aedf8 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150609-25457-1cmyclb.jpg>, @original_filename="adult4.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"adult4.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Dog"}
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/6912203ae2b9523e10a033ba674d7e3320150609-25457-1ozhu70.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/6912203ae2b9523e10a033ba674d7e3320150609-25457-1g5py50.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/6912203ae2b9523e10a033ba674d7e3320150609-25457-1g5py50.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/6912203ae2b9523e10a033ba674d7e3320150609-25457-1g5py50.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/6912203ae2b9523e10a033ba674d7e3320150609-25457-1g5py5020150609-25457-otfrsx'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/6912203ae2b9523e10a033ba674d7e3320150609-25457-1g5py5020150609-25457-otfrsx'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/6912203ae2b9523e10a033ba674d7e3320150609-25457-1g5py50.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/6912203ae2b9523e10a033ba674d7e3320150609-25457-1g5py50.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/6912203ae2b9523e10a033ba674d7e3320150609-25457-1g5py50.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/6912203ae2b9523e10a033ba674d7e3320150609-25457-1g5py5020150609-25457-suathl'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/6912203ae2b9523e10a033ba674d7e3320150609-25457-1g5py5020150609-25457-suathl'
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/6912203ae2b9523e10a033ba674d7e3320150609-25457-f8c0ys.jpg'
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "dogs" ("name", "age", "description", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Pebbles"], ["age", "Senior"], ["description", "From a rough background Parker has blossomed at the shelter.he gets along well with others and crates well but needs something to do and someone to do it with! Hiking, boating, a good game of fetch are all up Jeffersonâ\u0080\u0099s alley. He may not graduate at the top of his obedience class but he will run over everyone trying. With some solid leadership and quality training time Jefferson will be an amazing and loyal companion. Jefferson currently weighs about 50lbs and is very focused on his people. He would likely do very well a off leash\u0080\u009D at the beach or on hikes with some additional training. Everyone at the farm agrees that Jefferson likes to be the life of the party and is sure to welcome anyone to a party in your home. This is a boy who celebrates life all day every day and simply can't wait to meet his family! "], ["avatar_file_name", "adult4.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 14956], ["avatar_updated_at", "2015-06-10 03:29:08.503595"], ["created_at", "2015-06-10 03:29:09.228463"], ["updated_at", "2015-06-10 03:29:09.228463"]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/dogs/18
+Completed 302 Found in 749ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/dogs/18" for ::1 at 2015-06-09 23:29:09 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[35mDog Load (0.2ms)[0m  SELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1  [["id", 18]]
+  Rendered dogs/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 154ms (Views: 152.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 23:29:17 -0400
+Processing by DogsController#index as HTML
+  [1m[36mDog Load (0.4ms)[0m  [1mSELECT "dogs".* FROM "dogs"[0m
+  Rendered dogs/index.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 175ms (Views: 173.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/dogs/new" for ::1 at 2015-06-09 23:31:54 -0400
+Processing by DogsController#new as HTML
+  Rendered dogs/_form.html.erb (3.1ms)
+  Rendered dogs/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 151ms (Views: 149.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dogs" for ::1 at 2015-06-09 23:35:26 -0400
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ha0nHoGw0WPtaiIECLUO8fwmxEATtSPV04SW00nHfApE1gA6m8FsBZjKgStvLbs8NTVJp/5PDWv85+WbAem7dA==", "dog"=>{"name"=>"Ziggy", "age"=>"Senior", "description"=>"Ziggy would be a great running partner and he would be up for any adventure. He is fun and happy and ready to enjoy his new life alongside someone special. He is great in his crate and waits patiently for his turn at meal times and play times. He appreciates everything given to him - from food to attention - and he is never demanding. He is quiet and respectful to everyone. Ziggy has a nice athletic build and would likely enjoy daily exercise - walks or hikes. He will be a very loyal and loving companion to his forever family.", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa485d1e738 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150609-25457-sb6azx.jpg>, @original_filename="adult3.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"adult3.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Dog"}
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-1958zms.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-1xu92sm.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-1xu92sm.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-1xu92sm.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-1xu92sm20150609-25457-1sjig44'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-1xu92sm20150609-25457-1sjig44'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-1xu92sm.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-1xu92sm.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-1xu92sm.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-1xu92sm20150609-25457-wrjjh1'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-1xu92sm20150609-25457-wrjjh1'
+  [1m[35m (0.2ms)[0m  begin transaction
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/5ad3873f39667c982aa2090c0cd88ecc20150609-25457-mfv1lj.jpg'
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "dogs" ("name", "age", "description", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Ziggy"], ["age", "Senior"], ["description", "Ziggy would be a great running partner and he would be up for any adventure. He is fun and happy and ready to enjoy his new life alongside someone special. He is great in his crate and waits patiently for his turn at meal times and play times. He appreciates everything given to him - from food to attention - and he is never demanding. He is quiet and respectful to everyone. Ziggy has a nice athletic build and would likely enjoy daily exercise - walks or hikes. He will be a very loyal and loving companion to his forever family."], ["avatar_file_name", "adult3.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 11470], ["avatar_updated_at", "2015-06-10 03:35:26.508652"], ["created_at", "2015-06-10 03:35:27.876289"], ["updated_at", "2015-06-10 03:35:27.876289"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/dogs/19
+Completed 302 Found in 1441ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/dogs/19" for ::1 at 2015-06-09 23:35:28 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mDog Load (0.2ms)[0m  [1mSELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1[0m  [["id", 19]]
+  Rendered dogs/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 222ms (Views: 219.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 23:35:30 -0400
+Processing by DogsController#index as HTML
+  [1m[35mDog Load (0.4ms)[0m  SELECT "dogs".* FROM "dogs"
+  Rendered dogs/index.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 155ms (Views: 153.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/dogs/new" for ::1 at 2015-06-09 23:45:41 -0400
+Processing by DogsController#new as HTML
+  Rendered dogs/_form.html.erb (17.9ms)
+  Rendered dogs/new.html.erb within layouts/application (37.2ms)
+Completed 200 OK in 338ms (Views: 332.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dogs" for ::1 at 2015-06-09 23:48:13 -0400
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GjZQKoNAxkQ1LTklbHtBqCy5afelcI1WUx7QJo+awmnbTXcOmTF7IkCNmgoL4/Rl5arkEEiKo+h8faNux7QFFw==", "dog"=>{"name"=>"Bonita", "age"=>"Disabled", "description"=>"Rescued from the streets of Durham. She is a sassy girl that also loves to cuddle and keep your lap warm! She does great with dogs, cats, and children!Bonita enjoys time in wheelchair and is looking for a home that can express her bladder 3-4 times per day. She will go to her forever home with her own wheelchair and a \"Drag Bag\" that will protect her legs from sores and will help contain her potty accidents due to her incontinence.", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa485dccdd8 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150609-25457-19m5r07.png>, @original_filename="disabled4.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"disabled4.png\"\r\nContent-Type: image/png\r\n">}, "commit"=>"Create Dog"}
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ad1706c8046b7d3a1d0feb506ab7f93f20150609-25457-9l980a.png'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ad1706c8046b7d3a1d0feb506ab7f93f20150609-25457-11xpzsl.png[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ad1706c8046b7d3a1d0feb506ab7f93f20150609-25457-11xpzsl.png[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ad1706c8046b7d3a1d0feb506ab7f93f20150609-25457-11xpzsl.png[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ad1706c8046b7d3a1d0feb506ab7f93f20150609-25457-11xpzsl20150609-25457-1dnui9x'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ad1706c8046b7d3a1d0feb506ab7f93f20150609-25457-11xpzsl20150609-25457-1dnui9x'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ad1706c8046b7d3a1d0feb506ab7f93f20150609-25457-11xpzsl.png[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ad1706c8046b7d3a1d0feb506ab7f93f20150609-25457-11xpzsl.png[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ad1706c8046b7d3a1d0feb506ab7f93f20150609-25457-11xpzsl.png[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ad1706c8046b7d3a1d0feb506ab7f93f20150609-25457-11xpzsl20150609-25457-1sytt81'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ad1706c8046b7d3a1d0feb506ab7f93f20150609-25457-11xpzsl20150609-25457-1sytt81'
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/ad1706c8046b7d3a1d0feb506ab7f93f20150609-25457-r7r395.png'
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "dogs" ("name", "age", "description", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Bonita"], ["age", "Disabled"], ["description", "Rescued from the streets of Durham. She is a sassy girl that also loves to cuddle and keep your lap warm! She does great with dogs, cats, and children!Bonita enjoys time in wheelchair and is looking for a home that can express her bladder 3-4 times per day. She will go to her forever home with her own wheelchair and a \"Drag Bag\" that will protect her legs from sores and will help contain her potty accidents due to her incontinence."], ["avatar_file_name", "disabled4.png"], ["avatar_content_type", "image/png"], ["avatar_file_size", 253806], ["avatar_updated_at", "2015-06-10 03:48:13.672678"], ["created_at", "2015-06-10 03:48:14.375381"], ["updated_at", "2015-06-10 03:48:14.375381"]]
+  [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/dogs/20
+Completed 302 Found in 769ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/dogs/20" for ::1 at 2015-06-09 23:48:14 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[35mDog Load (0.1ms)[0m  SELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1  [["id", 20]]
+  Rendered dogs/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 314ms (Views: 312.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 23:48:18 -0400
+Processing by DogsController#index as HTML
+  [1m[36mDog Load (0.3ms)[0m  [1mSELECT "dogs".* FROM "dogs"[0m
+  Rendered dogs/index.html.erb within layouts/application (21.4ms)
+Completed 200 OK in 106ms (Views: 104.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dogs/new" for ::1 at 2015-06-09 23:48:38 -0400
+Processing by DogsController#new as HTML
+  Rendered dogs/_form.html.erb (2.3ms)
+  Rendered dogs/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 87ms (Views: 86.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dogs" for ::1 at 2015-06-09 23:52:14 -0400
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y6iC9wF3bLNYZaoKZg9NkA6fjsWKDKpb8CtHCiKAcZMK06XTGwbR1S3FCSUBl/hdx4wDImf2hOXfSDRCaq627Q==", "dog"=>{"name"=>"Roxy", "age"=>"Senior", "description"=>"Roxy had great news at her appointment! She is walking and is not in pain! She can pee and poop all on her own, but she will be on cage rest for the next 6 weeks. She is still wobbly and does fall down in the hind end, but has shown great progress according to the shelter notes. She may have IVDD or an injury to her spine, but with the recent improvement she has, the doctor does not feel comfortable taking her to surgery. He also does not feel an MRI is warranted at this time, even if he did find a disc problem or injury he still wouldn’t take her to surgery as the risks outweigh the benefits!  She is such a sweet girl!", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa485dc5470 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150609-25457-wrg943.jpg>, @original_filename="disabled1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"disabled1.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Dog"}
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/d38f3a6f33f714efc72c5f0c835332b820150609-25457-1gslkzk.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/d38f3a6f33f714efc72c5f0c835332b820150609-25457-2hwwer.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/d38f3a6f33f714efc72c5f0c835332b820150609-25457-2hwwer.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/d38f3a6f33f714efc72c5f0c835332b820150609-25457-2hwwer.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/d38f3a6f33f714efc72c5f0c835332b820150609-25457-2hwwer20150609-25457-1m19ec4'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/d38f3a6f33f714efc72c5f0c835332b820150609-25457-2hwwer20150609-25457-1m19ec4'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/d38f3a6f33f714efc72c5f0c835332b820150609-25457-2hwwer.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/d38f3a6f33f714efc72c5f0c835332b820150609-25457-2hwwer.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/d38f3a6f33f714efc72c5f0c835332b820150609-25457-2hwwer.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/d38f3a6f33f714efc72c5f0c835332b820150609-25457-2hwwer20150609-25457-1k1frwp'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/d38f3a6f33f714efc72c5f0c835332b820150609-25457-2hwwer20150609-25457-1k1frwp'
+  [1m[35m (0.2ms)[0m  begin transaction
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/d38f3a6f33f714efc72c5f0c835332b820150609-25457-12ekp0.jpg'
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "dogs" ("name", "age", "description", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Roxy"], ["age", "Senior"], ["description", "Roxy had great news at her appointment! She is walking and is not in pain! She can pee and poop all on her own, but she will be on cage rest for the next 6 weeks. She is still wobbly and does fall down in the hind end, but has shown great progress according to the shelter notes. She may have IVDD or an injury to her spine, but with the recent improvement she has, the doctor does not feel comfortable taking her to surgery. He also does not feel an MRI is warranted at this time, even if he did find a disc problem or injury he still wouldn’t take her to surgery as the risks outweigh the benefits!  She is such a sweet girl!"], ["avatar_file_name", "disabled1.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 16748], ["avatar_updated_at", "2015-06-10 03:52:14.737349"], ["created_at", "2015-06-10 03:52:15.357905"], ["updated_at", "2015-06-10 03:52:15.357905"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/dogs/21
+Completed 302 Found in 645ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/dogs/21" for ::1 at 2015-06-09 23:52:15 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mDog Load (0.2ms)[0m  [1mSELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1[0m  [["id", 21]]
+  Rendered dogs/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 183ms (Views: 181.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 23:52:19 -0400
+Processing by DogsController#index as HTML
+  [1m[35mDog Load (0.3ms)[0m  SELECT "dogs".* FROM "dogs"
+  Rendered dogs/index.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 121ms (Views: 120.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dogs/new" for ::1 at 2015-06-09 23:53:00 -0400
+Processing by DogsController#new as HTML
+  Rendered dogs/_form.html.erb (3.4ms)
+  Rendered dogs/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 161ms (Views: 160.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dogs" for ::1 at 2015-06-09 23:54:53 -0400
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VkW/svMZVvTzW40gYS+MN85Nac567y5vHW/uCZy/4nWXPpiW6Wjrkob7Lg8Gtzn6B17kKZcVANEyDJ1B1JElCw==", "dog"=>{"name"=>"Chip", "age"=>"Disabled", "description"=>"Chip had an injury to his spine. He is paralyzed in the hind end but he doesn't know it!  He has his own wheelchair and Drag Bag that will go with him to his forever home. He is neutered, current on vaccines, and he does well with cats,  dogs,  and children.  He will need a home that can express his bladder 3 to 4 times a day and get him out in his wheelchair for exercise.", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa480da7308 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150609-25457-1teu9oa.jpg>, @original_filename="disabled6.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"disabled6.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Dog"}
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/59ce28fbfa9657dc8ce6c8a0617c7baf20150609-25457-1o6e3mh.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/59ce28fbfa9657dc8ce6c8a0617c7baf20150609-25457-1b9x41g.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/59ce28fbfa9657dc8ce6c8a0617c7baf20150609-25457-1b9x41g.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/59ce28fbfa9657dc8ce6c8a0617c7baf20150609-25457-1b9x41g.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/59ce28fbfa9657dc8ce6c8a0617c7baf20150609-25457-1b9x41g20150609-25457-ixxhw9'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/59ce28fbfa9657dc8ce6c8a0617c7baf20150609-25457-1b9x41g20150609-25457-ixxhw9'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/59ce28fbfa9657dc8ce6c8a0617c7baf20150609-25457-1b9x41g.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/59ce28fbfa9657dc8ce6c8a0617c7baf20150609-25457-1b9x41g.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/59ce28fbfa9657dc8ce6c8a0617c7baf20150609-25457-1b9x41g.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/59ce28fbfa9657dc8ce6c8a0617c7baf20150609-25457-1b9x41g20150609-25457-1z006i4'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/59ce28fbfa9657dc8ce6c8a0617c7baf20150609-25457-1b9x41g20150609-25457-1z006i4'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/59ce28fbfa9657dc8ce6c8a0617c7baf20150609-25457-ue50b2.jpg'
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "dogs" ("name", "age", "description", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Chip"], ["age", "Disabled"], ["description", "Chip had an injury to his spine. He is paralyzed in the hind end but he doesn't know it!  He has his own wheelchair and Drag Bag that will go with him to his forever home. He is neutered, current on vaccines, and he does well with cats,  dogs,  and children.  He will need a home that can express his bladder 3 to 4 times a day and get him out in his wheelchair for exercise."], ["avatar_file_name", "disabled6.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 14541], ["avatar_updated_at", "2015-06-10 03:54:53.398747"], ["created_at", "2015-06-10 03:54:54.472092"], ["updated_at", "2015-06-10 03:54:54.472092"]]
+  [1m[36m (34.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/dogs/22
+Completed 302 Found in 1142ms (ActiveRecord: 34.6ms)
+
+
+Started GET "/dogs/22" for ::1 at 2015-06-09 23:54:54 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"22"}
+  [1m[35mDog Load (0.2ms)[0m  SELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1  [["id", 22]]
+  Rendered dogs/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 107ms (Views: 105.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-09 23:54:56 -0400
+Processing by DogsController#index as HTML
+  [1m[36mDog Load (0.3ms)[0m  [1mSELECT "dogs".* FROM "dogs"[0m
+  Rendered dogs/index.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 129ms (Views: 128.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dogs/new" for ::1 at 2015-06-09 23:57:36 -0400
+Processing by DogsController#new as HTML
+  Rendered dogs/_form.html.erb (3.2ms)
+  Rendered dogs/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 93ms (Views: 92.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dogs" for ::1 at 2015-06-10 00:03:02 -0400
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"s6RIcnxc8zqo7BqlLPWPZvG9frL2hn2PrPI1jAJbq/Fy329WZi1OXN1MuYpLbTqrOK7zVRt8UzGDkUbESnVsjw==", "dog"=>{"name"=>"Angel", "age"=>"Senior", "description"=>"Angel came to our rescue from the streets of Raleigh. She was dragging her hind legs for so long that her poor paws were worn down to the bone. After weeks of bandages changes and laser therapy to repair the damage she got her very own wheelchair! She loves to cuddle with people and she does well with dogs, cats, and children. Men can be a little scary for her at first, but once she gets to know them she has nothing but love to share!", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa4875451b8 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150610-25457-d2r6he.jpg>, @original_filename="disabled2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"disabled2.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Dog"}
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/bd8fe50b350dd989dfe786b2cfdadda320150610-25457-1iztyx1.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/bd8fe50b350dd989dfe786b2cfdadda320150610-25457-1kos9on.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/bd8fe50b350dd989dfe786b2cfdadda320150610-25457-1kos9on.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/bd8fe50b350dd989dfe786b2cfdadda320150610-25457-1kos9on.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/bd8fe50b350dd989dfe786b2cfdadda320150610-25457-1kos9on20150610-25457-1rgjwcn'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/bd8fe50b350dd989dfe786b2cfdadda320150610-25457-1kos9on20150610-25457-1rgjwcn'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/bd8fe50b350dd989dfe786b2cfdadda320150610-25457-1kos9on.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/bd8fe50b350dd989dfe786b2cfdadda320150610-25457-1kos9on.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/bd8fe50b350dd989dfe786b2cfdadda320150610-25457-1kos9on.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/bd8fe50b350dd989dfe786b2cfdadda320150610-25457-1kos9on20150610-25457-xefcdj'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/bd8fe50b350dd989dfe786b2cfdadda320150610-25457-1kos9on20150610-25457-xefcdj'
+  [1m[35m (0.1ms)[0m  begin transaction
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/bd8fe50b350dd989dfe786b2cfdadda320150610-25457-13i2vlz.jpg'
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "dogs" ("name", "age", "description", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Angel"], ["age", "Senior"], ["description", "Angel came to our rescue from the streets of Raleigh. She was dragging her hind legs for so long that her poor paws were worn down to the bone. After weeks of bandages changes and laser therapy to repair the damage she got her very own wheelchair! She loves to cuddle with people and she does well with dogs, cats, and children. Men can be a little scary for her at first, but once she gets to know them she has nothing but love to share!"], ["avatar_file_name", "disabled2.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 40616], ["avatar_updated_at", "2015-06-10 04:03:03.271086"], ["created_at", "2015-06-10 04:03:04.059273"], ["updated_at", "2015-06-10 04:03:04.059273"]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/dogs/23
+Completed 302 Found in 910ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/dogs/23" for ::1 at 2015-06-10 00:03:04 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"23"}
+  [1m[36mDog Load (0.1ms)[0m  [1mSELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1[0m  [["id", 23]]
+  Rendered dogs/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 204ms (Views: 203.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-10 00:03:06 -0400
+Processing by DogsController#index as HTML
+  [1m[35mDog Load (0.3ms)[0m  SELECT "dogs".* FROM "dogs"
+  Rendered dogs/index.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 222ms (Views: 220.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dogs/21/edit" for ::1 at 2015-06-10 00:03:49 -0400
+Processing by DogsController#edit as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mDog Load (0.1ms)[0m  [1mSELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1[0m  [["id", 21]]
+  Rendered dogs/_form.html.erb (3.5ms)
+  Rendered dogs/edit.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 115ms (Views: 112.9ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/dogs/21" for ::1 at 2015-06-10 00:03:59 -0400
+Processing by DogsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0+SNpVeT7gaOSM82Kep7xEh+ftnlTfmHHpwVv7x80m8Sn6qBTeJTYPvobBlOcs4JgW3zPgi31zkx/2b39FIVEQ==", "dog"=>{"name"=>"Roxy", "age"=>"Disabled", "description"=>"Roxy had great news at her appointment! She is walking and is not in pain! She can pee and poop all on her own, but she will be on cage rest for the next 6 weeks. She is still wobbly and does fall down in the hind end, but has shown great progress according to the shelter notes. She may have IVDD or an injury to her spine, but with the recent improvement she has, the doctor does not feel comfortable taking her to surgery. He also does not feel an MRI is warranted at this time, even if he did find a disc problem or injury he still wouldn’t take her to surgery as the risks outweigh the benefits!  She is such a sweet girl!"}, "commit"=>"Update Dog", "id"=>"21"}
+  [1m[35mDog Load (0.2ms)[0m  SELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1  [["id", 21]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "dogs" SET "age" = ?, "updated_at" = ? WHERE "dogs"."id" = ?  [["age", "Disabled"], ["updated_at", "2015-06-10 04:03:59.508759"], ["id", 21]]
+  [1m[36m (343.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/dogs/21
+Completed 302 Found in 350ms (ActiveRecord: 343.9ms)
+
+
+Started GET "/dogs/21" for ::1 at 2015-06-10 00:03:59 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mDog Load (0.2ms)[0m  SELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1  [["id", 21]]
+  Rendered dogs/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 107ms (Views: 105.4ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/dogs/21" for ::1 at 2015-06-10 00:04:06 -0400
+Processing by DogsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yI4enUjsDbjAcwN5GmCMeBKKbXM5jHqdXA4445Wyl9UJ9Tm5Up2w3rXToFZ9+Dm125nglNR2VCNzbUur3ZxQqw==", "dog"=>{"name"=>"Roxy", "age"=>"Disabled", "description"=>"Roxy had great news at her appointment! She is walking and is not in pain! She can pee and poop all on her own, but she will be on cage rest for the next 6 weeks. She is still wobbly and does fall down in the hind end, but has shown great progress according to the shelter notes. She may have IVDD or an injury to her spine, but with the recent improvement she has, the doctor does not feel comfortable taking her to surgery. He also does not feel an MRI is warranted at this time, even if he did find a disc problem or injury he still wouldn’t take her to surgery as the risks outweigh the benefits!  She is such a sweet girl!"}, "commit"=>"Update Dog", "id"=>"21"}
+  [1m[36mDog Load (0.3ms)[0m  [1mSELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1[0m  [["id", 21]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/dogs/21
+Completed 302 Found in 7ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/dogs/21" for ::1 at 2015-06-10 00:04:06 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mDog Load (0.2ms)[0m  SELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1  [["id", 21]]
+  Rendered dogs/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 111ms (Views: 109.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-10 00:04:08 -0400
+Processing by DogsController#index as HTML
+  [1m[36mDog Load (0.3ms)[0m  [1mSELECT "dogs".* FROM "dogs"[0m
+  Rendered dogs/index.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 99ms (Views: 97.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dogs/new" for ::1 at 2015-06-10 00:12:35 -0400
+Processing by DogsController#new as HTML
+  Rendered dogs/_form.html.erb (3.0ms)
+  Rendered dogs/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 143ms (Views: 141.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/dogs" for ::1 at 2015-06-10 00:20:00 -0400
+Processing by DogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hUb12hGMcY87aBbilUP9mdPr0oY0JBSVdv2Szx5gZe5EPdL+C/3M6U7Itc3y20hUGvhfYdneOitZnuGHVk6ikA==", "dog"=>{"name"=>"Sadie", "age"=>"Disabled", "description"=>"Sadie lost her front legs to her in car accident and does well with her artificial ones.", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa48703baa0 @tempfile=#<Tempfile:/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/RackMultipart20150610-25457-updwpr.jpg>, @original_filename="disabled3.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"dog[avatar]\"; filename=\"disabled3.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Dog"}
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b3984249dfea70bf6268579a9f5b9f2820150610-25457-z34m2p.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b3984249dfea70bf6268579a9f5b9f2820150610-25457-iuunv.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b3984249dfea70bf6268579a9f5b9f2820150610-25457-iuunv.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b3984249dfea70bf6268579a9f5b9f2820150610-25457-iuunv.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b3984249dfea70bf6268579a9f5b9f2820150610-25457-iuunv20150610-25457-1a3dlv'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b3984249dfea70bf6268579a9f5b9f2820150610-25457-iuunv20150610-25457-1a3dlv'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b3984249dfea70bf6268579a9f5b9f2820150610-25457-iuunv.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b3984249dfea70bf6268579a9f5b9f2820150610-25457-iuunv.jpg[0]'
+Command :: convert '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b3984249dfea70bf6268579a9f5b9f2820150610-25457-iuunv.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b3984249dfea70bf6268579a9f5b9f2820150610-25457-iuunv20150610-25457-l8jfjv'
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b3984249dfea70bf6268579a9f5b9f2820150610-25457-iuunv20150610-25457-l8jfjv'
+  [1m[35m (0.1ms)[0m  begin transaction
+Command :: file -b --mime '/var/folders/s1/0388bcd171xb6p2rd2lp4lp00000gp/T/b3984249dfea70bf6268579a9f5b9f2820150610-25457-1hq8ax8.jpg'
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "dogs" ("name", "age", "description", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Sadie"], ["age", "Disabled"], ["description", "Sadie lost her front legs to her in car accident and does well with her artificial ones."], ["avatar_file_name", "disabled3.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 17199], ["avatar_updated_at", "2015-06-10 04:20:00.170272"], ["created_at", "2015-06-10 04:20:00.879510"], ["updated_at", "2015-06-10 04:20:00.879510"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/dogs/24
+Completed 302 Found in 759ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/dogs/24" for ::1 at 2015-06-10 00:20:01 -0400
+Processing by DogsController#show as HTML
+  Parameters: {"id"=>"24"}
+  [1m[36mDog Load (0.1ms)[0m  [1mSELECT  "dogs".* FROM "dogs" WHERE "dogs"."id" = ? LIMIT 1[0m  [["id", 24]]
+  Rendered dogs/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 235ms (Views: 233.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/dogs" for ::1 at 2015-06-10 00:20:03 -0400
+Processing by DogsController#index as HTML
+  [1m[35mDog Load (0.5ms)[0m  SELECT "dogs".* FROM "dogs"
+  Rendered dogs/index.html.erb within layouts/application (23.7ms)
+Completed 200 OK in 845ms (Views: 843.5ms | ActiveRecord: 0.5ms)
