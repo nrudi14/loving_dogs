@@ -1,0 +1,41 @@
+
+<====================================================>
+
+RESCUE ME 
+
+created in:
+HTML
+CSS
+Javascript
+jQuery
+Bootstrap
+Ruby on Rails
+<====================================================>
+
+																													RESCUE ME
+To secure equal treatment and opportunity for ALL dogs and to create a world in which all companion animals find compassionate, permanent homes..
+
+Getting Started
+
+Install Rails at the command prompt if you haven't yet:
+
+gem install rails
+At the command prompt, create a new Rails application:
+
+rails new myapp
+where "myapp" is the application name.
+
+Change directory to myapp and start the web server:
+
+cd myapp
+rails server
+Run with --help or -h for options.
+
+Using a browser, go to http://localhost:3000 and you'll see: "Welcome aboard: You're riding Ruby on Rails!"
+
+Follow the guidelines to start developing your application. You may find the following resources handy:
+
+Getting Started with Rails
+Ruby on Rails Guides
+The API Documentation
+Ruby on Rails Tutorial
